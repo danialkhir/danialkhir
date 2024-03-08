@@ -1,0 +1,154 @@
+#include <Wire.h>
+
+const int WireEnds[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 22, 23, 24, 
+  //     ArrayNumber[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,                        
+                       25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 
+  //                     17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31,                         
+                       40, 41 ,42, 43, 45, 47, 48, 49, 50, 51};
+  //                     32, 33, 34, 35, 36, 37, 38, 39, 40, 41} 
+const int NumWires = sizeof(WireEnds) / sizeof(WireEnds[0]);
+
+int continuityReading = 0; // Variable to store the continuity reading
+
+void setup() {
+    Serial.begin(9600);
+    for (int i = 0; i < NumWires; i++) {
+      pinMode(WireEnds[i], OUTPUT);
+      digitalWrite(WireEnds[i], HIGH);
+    }
+    Wire.begin(8); // Set the slave address to 8
+    Wire.onReceive(receiveEvent);
+    Wire.onRequest(sendData);
+  }
+
+void loop() {
+    // Wait for I2C commands from the master
+  }
+
+void receiveEvent(int howMany) {
+    if (howMany >= 3) {
+      char command = Wire.read();
+
+      if (command == 'T') {
+        int i = Wire.read();
+        int j = Wire.read();
+        int pin1 = WireEnds[i];
+        int pin2 = WireEnds[j];
+        continuityReading = performContinuityTest(i, j, pin1, pin2);
+      }
+      else if(command=='R'){
+        int R=Wire.read();
+        ResTest();
+        
+      }
+    
+    }
+  }
+void sendResultRes(float Res1,char RStatus1,float Res2, char RStatus2,float Res3,char RStatus3){
+int Res1k=Res1*1000;
+int Res2k=Res2*1000;
+int Res3k=Res3*1000;
+Wire.write(Res1k);
+Wire.write(RStatus1);
+Wire.write(Res2k);
+Wire.write(RStatus2);
+Wire.write(Res3k);
+Wire.write(RStatus3);
+}
+float ResCal(int anlg){
+  float Vpv=3.3/4096;
+  float Vval=anlg*Vpv;
+  float Rval=((3.3*10)-(Vval*10))/Vval;
+
+  return Rval;
+  }
+void ResTest(){
+    // Res 1:Pin 8 to Pin 6
+    // Res 2:Pin 2 to 17
+    // Res 3:Pin 13 to 19
+    digitalWrite(16,HIGH); //end 2 of 21
+    int ReadCount=0;
+    int Status;
+  while(ReadCount<31){
+    if(digitalRead(17)==HIGH && ReadCount<30 && Status==0){
+      digitalWrite(0,HIGH);
+      digitalWrite(2,HIGH);
+      digitalWrite(15,HIGH);
+      int Status=1;
+      int anlg1=analogRead(A13);
+      char* RStatus1;
+      float Res1=ResCal(anlg1);
+      int anlg2=analogRead(A14);
+      char* RStatus2;
+      float Res2=ResCal(anlg2);
+      int anlg3=analogRead(A15);
+      char* RStatus3;
+      float Res3=ResCal(anlg3);
+        if(Res1>8000 && Res1<15000){
+          Serial.print("Pass");
+          RStatus1="Pass";
+            }
+        else{
+          Serial.print("Fail");
+          RStatus1="Fail";
+            }
+        if(Res2<10){
+          Serial.print("Pass");
+          RStatus2="Pass";
+            }
+        else{
+          Serial.print("Fail");
+          RStatus2="Fail";
+        } 
+        if(Res3<10){
+          Serial.println("Pass");
+          RStatus3="Pass";
+        }
+        else{
+          Serial.println("Fail");
+          RStatus3="Fail";
+        }
+        sendResultRes(Res1,RStatus1,Res2,RStatus2,Res3,RStatus3);
+       
+        delay(200);
+      ReadCount++;
+    }
+      //Write Into Res Test Result;
+        if(digitalRead(16)==HIGH){
+      Status=1;  
+      Serial.println("Disconnect");
+        }
+        else{
+      Serial.println("Reconnect");
+      Status=0;   
+        }
+      if(ReadCount==30 && Status==0){
+        Serial.println("30 Test Done");
+      delay(100000);
+      }
+      else{
+      Serial.println("Cable Disconnect");
+      delay(1000);
+      }
+    }
+  }
+
+int performContinuityTest(int i, int j, int pin1, int pin2) {
+    pinMode(pin1, OUTPUT);
+    digitalWrite(pin1, LOW);
+    delay(10);
+    pinMode(pin2, INPUT_PULLUP);
+    delay(10);
+
+    int reading = digitalRead(pin2);
+
+    pinMode(pin2, INPUT_PULLUP);
+    delay(10);
+    digitalWrite(pin1, HIGH);
+
+    return reading;
+  }
+
+void sendData() {
+    Wire.write(continuityReading);
+  }
