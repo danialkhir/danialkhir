@@ -1,0 +1,9 @@
+c:\users\amin\documents\visual studio 2015\Projects\test_arduinomini\test_arduinomini\bin\Debug\test_arduinomini.exe.config
+c:\users\amin\documents\visual studio 2015\Projects\test_arduinomini\test_arduinomini\bin\Debug\test_arduinomini.exe
+c:\users\amin\documents\visual studio 2015\Projects\test_arduinomini\test_arduinomini\bin\Debug\test_arduinomini.pdb
+c:\users\amin\documents\visual studio 2015\Projects\test_arduinomini\test_arduinomini\obj\Debug\test_arduinomini.csprojResolveAssemblyReference.cache
+c:\users\amin\documents\visual studio 2015\Projects\test_arduinomini\test_arduinomini\obj\Debug\test_arduinomini.Form1.resources
+c:\users\amin\documents\visual studio 2015\Projects\test_arduinomini\test_arduinomini\obj\Debug\test_arduinomini.Properties.Resources.resources
+c:\users\amin\documents\visual studio 2015\Projects\test_arduinomini\test_arduinomini\obj\Debug\test_arduinomini.csproj.GenerateResource.Cache
+c:\users\amin\documents\visual studio 2015\Projects\test_arduinomini\test_arduinomini\obj\Debug\test_arduinomini.exe
+c:\users\amin\documents\visual studio 2015\Projects\test_arduinomini\test_arduinomini\obj\Debug\test_arduinomini.pdb
