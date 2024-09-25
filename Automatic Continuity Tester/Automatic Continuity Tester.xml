@@ -1,0 +1,3590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\mohddanial.mohdkhir\Documents\Improvement Project\KiCAd\Automatic Continuity Tester\Automatic Continuity Tester\Automatic Continuity Tester.kicad_sch</source>
+    <date>27/02/2024 2:05:03 PM</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Automatic Continuity Tester</title>
+        <company>UWC</company>
+        <rev>0</rev>
+        <date/>
+        <source>Automatic Continuity Tester.kicad_sch</source>
+        <comment number="1" value="Danial Khir"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/">
+      <title_block>
+        <title/>
+        <company>UWC</company>
+        <rev>0</rev>
+        <date/>
+        <source>16M256P.kicad_sch</source>
+        <comment number="1" value="Danial Khir"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/3M48P/" tstamps="/0bbe49c9-9df1-40c9-ba8d-77f6fb915188/">
+      <title_block>
+        <title/>
+        <company>UWC</company>
+        <rev>0</rev>
+        <date/>
+        <source>3M48p.kicad_sch</source>
+        <comment number="1" value="Danial Khir"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/">
+      <title_block>
+        <title/>
+        <company>UWC</company>
+        <rev>0</rev>
+        <date/>
+        <source>16D256P.kicad_sch</source>
+        <comment number="1" value="Danial Khir"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/3D48P1/" tstamps="/1b7f8bb9-9c02-4d50-b4e0-71338b56117f/">
+      <title_block>
+        <title/>
+        <company>UWC</company>
+        <rev>0</rev>
+        <date/>
+        <source>3D48p.kicad_sch</source>
+        <comment number="1" value="Danial Khir"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Battery:BatteryHolder_Keystone_1042_1x18650</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Automatic Continuity Tester.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a117f8d-12a2-4e7a-8d27-d2e45eb84084</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Micro_SD_Card</value>
+      <footprint>Connector_Card:microSD_HC_Hirose_DM3D-SF</footprint>
+      <datasheet>http://katalog.we-online.de/em/datasheet/693072010801.pdf</datasheet>
+      <libsource lib="Connector" part="Micro_SD_Card" description="Micro SD Card Socket"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Automatic Continuity Tester.kicad_sch"/>
+      <property name="ki_description" value="Micro SD Card Socket"/>
+      <property name="ki_keywords" value="connector SD microsd"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a2c0161-a946-4f2f-b7fc-35aaa680a1c0</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DPST_x2</value>
+      <libsource lib="Switch" part="SW_DPST_x2" description="Single Pole Single Throw (SPST) switch, separate symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Automatic Continuity Tester.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch, separate symbol"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07d13fe4-4125-4414-9ff3-64ec641ef974</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Automatic Continuity Tester.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e77a20b-858e-4d38-b7a2-3e7bdc7b1e1d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Automatic Continuity Tester.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebcba248-c285-4c8d-8241-f6a0b6ddb0c7</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Automatic Continuity Tester.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08f81809-793d-4db8-9543-c16ddee80887</tstamps>
+    </comp>
+    <comp ref="U23">
+      <value>ESP32-WROOM-32</value>
+      <footprint>RF_Module:ESP32-WROOM-32</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</datasheet>
+      <libsource lib="RF_Module" part="ESP32-WROOM-32" description="RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Automatic Continuity Tester.kicad_sch"/>
+      <property name="ki_description" value="RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"/>
+      <property name="ki_keywords" value="RF Radio BT ESP ESP32 Espressif onboard PCB antenna"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>572bb821-56ca-40e8-94ae-2fb34bd9f3ad</tstamps>
+    </comp>
+    <comp ref="U24">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Automatic Continuity Tester.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3726b70a-4b4c-47d5-b492-02bc471f3cb0</tstamps>
+    </comp>
+    <comp ref="U25">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Automatic Continuity Tester.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93cc53b1-ca4c-46c7-8a66-d7fcae2b40d6</tstamps>
+    </comp>
+    <comp ref="U26">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Automatic Continuity Tester.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e2c12fc-732f-4252-baba-7b4c8236b6db</tstamps>
+    </comp>
+    <comp ref="U46">
+      <value>TP4056</value>
+      <footprint>TP4056:SOP127P600X175-9N</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TP4056/NanJing+Top+Power+ASIC+Corp./view-part/?ref=eda</field>
+        <field name="Description">
+Complete single cell Li-Ion battery with a constant current / constant voltage linear charger
+</field>
+        <field name="MANUFACTURER">NanJing Top Power ASIC Corp.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75mm</field>
+        <field name="MF">NanJing Top Power ASIC Corp.</field>
+        <field name="MP">TP4056</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TP4056/NanJing+Top+Power+ASIC+Corp./view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="TP4056" part="TP4056" description=""/>
+      <property name="MF" value="NanJing Top Power ASIC Corp."/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.75mm"/>
+      <property name="Package" value="Package"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TP4056/NanJing+Top+Power+ASIC+Corp./view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TP4056/NanJing+Top+Power+ASIC+Corp./view-part/?ref=snap"/>
+      <property name="MP" value="TP4056"/>
+      <property name="Description" value="&#xA;Complete single cell Li-Ion battery with a constant current / constant voltage linear charger&#xA;"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="MANUFACTURER" value="NanJing Top Power ASIC Corp."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Automatic Continuity Tester.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>577ff7ac-1252-4b86-b29c-3df71d8efff5</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>88f4e85b-f3e2-4888-b5cd-2b453b76cc90</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>5c10af45-fff3-4ec9-b89d-efc21a6ebea6</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>3465d9ea-761e-4bbb-a4bb-d1d4f7e08651</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>36107a68-29ae-449a-8ae8-129a91a00740</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>84e80e7a-bb9f-42a0-b5a8-0d32e756a77a</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>4bec205d-edac-47d7-9128-21248a0c629d</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>ca0a809e-7f87-4c60-9490-fa132b73f1c8</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>2d174c98-629e-4f5d-aae7-d14300bf9d4a</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>c1043e70-86a4-49a2-ba93-faf214543f4d</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>405f396f-c90f-435f-835e-36041c677bce</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>9128c733-737e-4331-9e5c-002fdb2dab5f</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>005a5980-d1c1-4fc0-a666-0c564ffca3e8</tstamps>
+    </comp>
+    <comp ref="U16">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>dc51919f-02be-46e8-92e0-de0eb239de56</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>0c1009dc-7dfe-4a0f-8d37-9840d8e03edc</tstamps>
+    </comp>
+    <comp ref="U18">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>593ca033-d7fc-44a6-b601-b2c7123eac9d</tstamps>
+    </comp>
+    <comp ref="U19">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16M256P"/>
+      <property name="Sheetfile" value="16M256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16M256P/" tstamps="/40f39165-3305-4729-b4e2-1a9b6e379ea1/"/>
+      <tstamps>60885a40-5c51-49d6-81eb-e9e1883d3614</tstamps>
+    </comp>
+    <comp ref="U20">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="3M48P"/>
+      <property name="Sheetfile" value="3M48p.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/3M48P/" tstamps="/0bbe49c9-9df1-40c9-ba8d-77f6fb915188/"/>
+      <tstamps>d1eadc62-768f-47ed-aca0-f7937e18ea1b</tstamps>
+    </comp>
+    <comp ref="U21">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="3M48P"/>
+      <property name="Sheetfile" value="3M48p.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/3M48P/" tstamps="/0bbe49c9-9df1-40c9-ba8d-77f6fb915188/"/>
+      <tstamps>6bf98a75-6fbe-482d-9c1b-7299e3b384e4</tstamps>
+    </comp>
+    <comp ref="U22">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="3M48P"/>
+      <property name="Sheetfile" value="3M48p.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/3M48P/" tstamps="/0bbe49c9-9df1-40c9-ba8d-77f6fb915188/"/>
+      <tstamps>3c42617e-b876-43c2-a96c-336107bed8aa</tstamps>
+    </comp>
+    <comp ref="U27">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>5c10af45-fff3-4ec9-b89d-efc21a6ebea6</tstamps>
+    </comp>
+    <comp ref="U28">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>3465d9ea-761e-4bbb-a4bb-d1d4f7e08651</tstamps>
+    </comp>
+    <comp ref="U29">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>ca0a809e-7f87-4c60-9490-fa132b73f1c8</tstamps>
+    </comp>
+    <comp ref="U30">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>88f4e85b-f3e2-4888-b5cd-2b453b76cc90</tstamps>
+    </comp>
+    <comp ref="U31">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>84e80e7a-bb9f-42a0-b5a8-0d32e756a77a</tstamps>
+    </comp>
+    <comp ref="U32">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>36107a68-29ae-449a-8ae8-129a91a00740</tstamps>
+    </comp>
+    <comp ref="U33">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>4bec205d-edac-47d7-9128-21248a0c629d</tstamps>
+    </comp>
+    <comp ref="U34">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>2d174c98-629e-4f5d-aae7-d14300bf9d4a</tstamps>
+    </comp>
+    <comp ref="U35">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>c1043e70-86a4-49a2-ba93-faf214543f4d</tstamps>
+    </comp>
+    <comp ref="U36">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>405f396f-c90f-435f-835e-36041c677bce</tstamps>
+    </comp>
+    <comp ref="U37">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>9128c733-737e-4331-9e5c-002fdb2dab5f</tstamps>
+    </comp>
+    <comp ref="U38">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>005a5980-d1c1-4fc0-a666-0c564ffca3e8</tstamps>
+    </comp>
+    <comp ref="U39">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>dc51919f-02be-46e8-92e0-de0eb239de56</tstamps>
+    </comp>
+    <comp ref="U40">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>0c1009dc-7dfe-4a0f-8d37-9840d8e03edc</tstamps>
+    </comp>
+    <comp ref="U41">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>593ca033-d7fc-44a6-b601-b2c7123eac9d</tstamps>
+    </comp>
+    <comp ref="U42">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="16D256P"/>
+      <property name="Sheetfile" value="16D256P.kicad_sch"/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/16D256P/" tstamps="/93e80170-bd99-43c5-ba1f-a0df769be78d/"/>
+      <tstamps>60885a40-5c51-49d6-81eb-e9e1883d3614</tstamps>
+    </comp>
+    <comp ref="U43">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="3D48P1"/>
+      <property name="Sheetfile" value="3D48p.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/3D48P1/" tstamps="/1b7f8bb9-9c02-4d50-b4e0-71338b56117f/"/>
+      <tstamps>d1eadc62-768f-47ed-aca0-f7937e18ea1b</tstamps>
+    </comp>
+    <comp ref="U44">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="3D48P1"/>
+      <property name="Sheetfile" value="3D48p.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/3D48P1/" tstamps="/1b7f8bb9-9c02-4d50-b4e0-71338b56117f/"/>
+      <tstamps>6bf98a75-6fbe-482d-9c1b-7299e3b384e4</tstamps>
+    </comp>
+    <comp ref="U45">
+      <value>CD74HC4067M</value>
+      <footprint>Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</datasheet>
+      <libsource lib="74xx" part="CD74HC4067M" description="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="Sheetname" value="3D48P1"/>
+      <property name="Sheetfile" value="3D48p.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24"/>
+      <property name="ki_keywords" value="multiplexer demultiplexer mux demux"/>
+      <sheetpath names="/3D48P1/" tstamps="/1b7f8bb9-9c02-4d50-b4e0-71338b56117f/"/>
+      <tstamps>3c42617e-b876-43c2-a96c-336107bed8aa</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="CD74HC4067M">
+      <description>High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24</description>
+      <docs>http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</docs>
+      <footprints>
+        <fp>SOIC*W*7.5x15.4mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD74HC4067M</field>
+        <field name="Footprint">Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM" type="passive"/>
+        <pin num="2" name="I7" type="passive"/>
+        <pin num="3" name="I6" type="passive"/>
+        <pin num="4" name="I5" type="passive"/>
+        <pin num="5" name="I4" type="passive"/>
+        <pin num="6" name="I3" type="passive"/>
+        <pin num="7" name="I2" type="passive"/>
+        <pin num="8" name="I1" type="passive"/>
+        <pin num="9" name="I0" type="passive"/>
+        <pin num="10" name="S0" type="input"/>
+        <pin num="11" name="S1" type="input"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="S3" type="input"/>
+        <pin num="14" name="S2" type="input"/>
+        <pin num="15" name="~{E}" type="input"/>
+        <pin num="16" name="I15" type="passive"/>
+        <pin num="17" name="I14" type="passive"/>
+        <pin num="18" name="I13" type="passive"/>
+        <pin num="19" name="I12" type="passive"/>
+        <pin num="20" name="I11" type="passive"/>
+        <pin num="21" name="I10" type="passive"/>
+        <pin num="22" name="I9" type="passive"/>
+        <pin num="23" name="I8" type="passive"/>
+        <pin num="24" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Micro_SD_Card">
+      <description>Micro SD Card Socket</description>
+      <docs>http://katalog.we-online.de/em/datasheet/693072010801.pdf</docs>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card</field>
+        <field name="Datasheet">http://katalog.we-online.de/em/datasheet/693072010801.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="bidirectional"/>
+        <pin num="2" name="DAT3/CD" type="bidirectional"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="bidirectional"/>
+        <pin num="8" name="DAT1" type="bidirectional"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP32-WROOM-32">
+      <description>RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP32?WROOM?32*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32</field>
+        <field name="Footprint">RF_Module:ESP32-WROOM-32</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="bidirectional"/>
+        <pin num="9" name="IO33" type="bidirectional"/>
+        <pin num="10" name="IO25" type="bidirectional"/>
+        <pin num="11" name="IO26" type="bidirectional"/>
+        <pin num="12" name="IO27" type="bidirectional"/>
+        <pin num="13" name="IO14" type="bidirectional"/>
+        <pin num="14" name="IO12" type="bidirectional"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="IO13" type="bidirectional"/>
+        <pin num="17" name="SHD/SD2" type="bidirectional"/>
+        <pin num="18" name="SWP/SD3" type="bidirectional"/>
+        <pin num="19" name="SCS/CMD" type="bidirectional"/>
+        <pin num="20" name="SCK/CLK" type="bidirectional"/>
+        <pin num="21" name="SDO/SD0" type="bidirectional"/>
+        <pin num="22" name="SDI/SD1" type="bidirectional"/>
+        <pin num="23" name="IO15" type="bidirectional"/>
+        <pin num="24" name="IO2" type="bidirectional"/>
+        <pin num="25" name="IO0" type="bidirectional"/>
+        <pin num="26" name="IO4" type="bidirectional"/>
+        <pin num="27" name="IO16" type="bidirectional"/>
+        <pin num="28" name="IO17" type="bidirectional"/>
+        <pin num="29" name="IO5" type="bidirectional"/>
+        <pin num="30" name="IO18" type="bidirectional"/>
+        <pin num="31" name="IO19" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="IO21" type="bidirectional"/>
+        <pin num="34" name="RXD0/IO3" type="bidirectional"/>
+        <pin num="35" name="TXD0/IO1" type="bidirectional"/>
+        <pin num="36" name="IO22" type="bidirectional"/>
+        <pin num="37" name="IO23" type="bidirectional"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPST_x2">
+      <description>Single Pole Single Throw (SPST) switch, separate symbol</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPST_x2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+        <pin num="4" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TP4056" part="TP4056">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TP4056</field>
+        <field name="Footprint">TP4056:SOP127P600X175-9N</field>
+        <field name="MF">NanJing Top Power ASIC Corp.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75mm</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TP4056/NanJing+Top+Power+ASIC+Corp./view-part/?ref=eda</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TP4056/NanJing+Top+Power+ASIC+Corp./view-part/?ref=snap</field>
+        <field name="MP">TP4056</field>
+        <field name="Description">
+Complete single cell Li-Ion battery with a constant current / constant voltage linear charger
+</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">NanJing Top Power ASIC Corp.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEMP" type="input"/>
+        <pin num="2" name="PROG" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="BAT" type="output"/>
+        <pin num="6" name="~{STDBY}" type="output"/>
+        <pin num="7" name="~{CHRG}" type="output"/>
+        <pin num="8" name="CE" type="input"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/RF_Module.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="TP4056">
+      <uri>D:/Download 231228/TP4056/TP4056.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="U1" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U10" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U11" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U13" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U14" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U15" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U16" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U17" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U18" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U19" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U20" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U21" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U22" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U24" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U25" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U26" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U27" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U28" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U29" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U30" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U31" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U32" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U33" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U34" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U35" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U36" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U37" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U38" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U39" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U40" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U41" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U42" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U43" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U44" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U45" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U7" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="24" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U9" pin="24" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="U23" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U46" pin="4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="01">
+      <node ref="U2" pin="9" pinfunction="I0" pintype="passive"/>
+      <node ref="U25" pin="9" pinfunction="I0" pintype="passive"/>
+      <node ref="U30" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="4" name="02">
+      <node ref="U2" pin="8" pinfunction="I1" pintype="passive"/>
+      <node ref="U25" pin="8" pinfunction="I1" pintype="passive"/>
+      <node ref="U27" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="5" name="03">
+      <node ref="U2" pin="7" pinfunction="I2" pintype="passive"/>
+      <node ref="U25" pin="7" pinfunction="I2" pintype="passive"/>
+      <node ref="U28" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="6" name="04">
+      <node ref="U10" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="I3" pintype="passive"/>
+      <node ref="U25" pin="6" pinfunction="I3" pintype="passive"/>
+      <node ref="U29" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="7" name="05">
+      <node ref="U11" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="I4" pintype="passive"/>
+      <node ref="U25" pin="5" pinfunction="I4" pintype="passive"/>
+      <node ref="U34" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="8" name="06">
+      <node ref="U2" pin="4" pinfunction="I5" pintype="passive"/>
+      <node ref="U25" pin="4" pinfunction="I5" pintype="passive"/>
+      <node ref="U33" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="9" name="07">
+      <node ref="U2" pin="3" pinfunction="I6" pintype="passive"/>
+      <node ref="U25" pin="3" pinfunction="I6" pintype="passive"/>
+      <node ref="U32" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="10" name="08">
+      <node ref="U2" pin="2" pinfunction="I7" pintype="passive"/>
+      <node ref="U25" pin="2" pinfunction="I7" pintype="passive"/>
+      <node ref="U31" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="11" name="09">
+      <node ref="U15" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="I8" pintype="passive"/>
+      <node ref="U25" pin="23" pinfunction="I8" pintype="passive"/>
+      <node ref="U38" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="12" name="010">
+      <node ref="U14" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="I9" pintype="passive"/>
+      <node ref="U25" pin="22" pinfunction="I9" pintype="passive"/>
+      <node ref="U37" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="13" name="011">
+      <node ref="U12" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="I10" pintype="passive"/>
+      <node ref="U25" pin="21" pinfunction="I10" pintype="passive"/>
+      <node ref="U35" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="14" name="11">
+      <node ref="U20" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U26" pin="9" pinfunction="I0" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="I0" pintype="passive"/>
+      <node ref="U43" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="15" name="12">
+      <node ref="U22" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U26" pin="8" pinfunction="I1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="I1" pintype="passive"/>
+      <node ref="U45" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="16" name="012">
+      <node ref="U13" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="I11" pintype="passive"/>
+      <node ref="U25" pin="20" pinfunction="I11" pintype="passive"/>
+      <node ref="U36" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="17" name="13">
+      <node ref="U21" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U26" pin="7" pinfunction="I2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="I2" pintype="passive"/>
+      <node ref="U44" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="18" name="013">
+      <node ref="U19" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="I12" pintype="passive"/>
+      <node ref="U25" pin="19" pinfunction="I12" pintype="passive"/>
+      <node ref="U42" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="19" name="014">
+      <node ref="U18" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="I13" pintype="passive"/>
+      <node ref="U25" pin="18" pinfunction="I13" pintype="passive"/>
+      <node ref="U41" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="20" name="015">
+      <node ref="U16" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="I14" pintype="passive"/>
+      <node ref="U25" pin="17" pinfunction="I14" pintype="passive"/>
+      <node ref="U39" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="21" name="016">
+      <node ref="U17" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="I15" pintype="passive"/>
+      <node ref="U25" pin="16" pinfunction="I15" pintype="passive"/>
+      <node ref="U40" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="22" name="B0">
+      <node ref="U1" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U23" pin="25" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="B1">
+      <node ref="U2" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U23" pin="35" pinfunction="TXD0/IO1" pintype="bidirectional"/>
+      <node ref="U3" pin="10" pinfunction="S0" pintype="input"/>
+    </net>
+    <net code="24" name="B2">
+      <node ref="U2" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U23" pin="24" pinfunction="IO2" pintype="bidirectional"/>
+      <node ref="U3" pin="11" pinfunction="S1" pintype="input"/>
+    </net>
+    <net code="25" name="B3">
+      <node ref="U2" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U23" pin="34" pinfunction="RXD0/IO3" pintype="bidirectional"/>
+      <node ref="U3" pin="14" pinfunction="S2" pintype="input"/>
+    </net>
+    <net code="26" name="B4">
+      <node ref="U2" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U23" pin="26" pinfunction="IO4" pintype="bidirectional"/>
+      <node ref="U3" pin="13" pinfunction="S3" pintype="input"/>
+    </net>
+    <net code="27" name="B5">
+      <node ref="U10" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U11" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U12" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U13" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U14" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U15" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U16" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U17" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U18" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U19" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U20" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U21" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U22" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U23" pin="29" pinfunction="IO5" pintype="bidirectional"/>
+      <node ref="U4" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U5" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U6" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U7" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U8" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U9" pin="10" pinfunction="S0" pintype="input"/>
+    </net>
+    <net code="28" name="B6">
+      <node ref="U10" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U11" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U12" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U13" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U14" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U15" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U16" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U17" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U18" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U19" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U20" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U21" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U22" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U23" pin="14" pinfunction="IO12" pintype="bidirectional"/>
+      <node ref="U4" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U5" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U6" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U7" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U8" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U9" pin="11" pinfunction="S1" pintype="input"/>
+    </net>
+    <net code="29" name="B7">
+      <node ref="U10" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U11" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U12" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U13" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U14" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U15" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U16" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U17" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U18" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U19" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U20" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U21" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U22" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U23" pin="16" pinfunction="IO13" pintype="bidirectional"/>
+      <node ref="U4" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U5" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U6" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U7" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U8" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U9" pin="14" pinfunction="S2" pintype="input"/>
+    </net>
+    <net code="30" name="B8">
+      <node ref="U10" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U11" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U12" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U13" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U14" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U15" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U16" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U17" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U18" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U19" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U20" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U21" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U22" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U23" pin="13" pinfunction="IO14" pintype="bidirectional"/>
+      <node ref="U4" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U5" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U6" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U7" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U8" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U9" pin="13" pinfunction="S3" pintype="input"/>
+    </net>
+    <net code="31" name="D0">
+      <node ref="U23" pin="23" pinfunction="IO15" pintype="bidirectional"/>
+      <node ref="U24" pin="10" pinfunction="S0" pintype="input"/>
+    </net>
+    <net code="32" name="D1">
+      <node ref="U23" pin="27" pinfunction="IO16" pintype="bidirectional"/>
+      <node ref="U25" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U26" pin="10" pinfunction="S0" pintype="input"/>
+    </net>
+    <net code="33" name="D2">
+      <node ref="U23" pin="28" pinfunction="IO17" pintype="bidirectional"/>
+      <node ref="U25" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U26" pin="11" pinfunction="S1" pintype="input"/>
+    </net>
+    <net code="34" name="D3">
+      <node ref="U23" pin="30" pinfunction="IO18" pintype="bidirectional"/>
+      <node ref="U25" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U26" pin="14" pinfunction="S2" pintype="input"/>
+    </net>
+    <net code="35" name="D4">
+      <node ref="U23" pin="31" pinfunction="IO19" pintype="bidirectional"/>
+      <node ref="U25" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U26" pin="13" pinfunction="S3" pintype="input"/>
+    </net>
+    <net code="36" name="D5">
+      <node ref="U23" pin="33" pinfunction="IO21" pintype="bidirectional"/>
+      <node ref="U27" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U28" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U29" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U30" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U31" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U32" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U33" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U34" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U35" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U36" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U37" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U38" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U39" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U40" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U41" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U42" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U43" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U44" pin="10" pinfunction="S0" pintype="input"/>
+      <node ref="U45" pin="10" pinfunction="S0" pintype="input"/>
+    </net>
+    <net code="37" name="D6">
+      <node ref="U23" pin="36" pinfunction="IO22" pintype="bidirectional"/>
+      <node ref="U27" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U28" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U29" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U30" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U31" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U32" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U33" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U34" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U35" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U36" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U37" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U38" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U39" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U40" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U41" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U42" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U43" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U44" pin="11" pinfunction="S1" pintype="input"/>
+      <node ref="U45" pin="11" pinfunction="S1" pintype="input"/>
+    </net>
+    <net code="38" name="D7">
+      <node ref="U23" pin="37" pinfunction="IO23" pintype="bidirectional"/>
+      <node ref="U27" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U28" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U29" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U30" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U31" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U32" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U33" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U34" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U35" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U36" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U37" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U38" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U39" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U40" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U41" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U42" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U43" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U44" pin="14" pinfunction="S2" pintype="input"/>
+      <node ref="U45" pin="14" pinfunction="S2" pintype="input"/>
+    </net>
+    <net code="39" name="D8">
+      <node ref="U23" pin="12" pinfunction="IO27" pintype="bidirectional"/>
+      <node ref="U27" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U28" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U29" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U30" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U31" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U32" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U33" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U34" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U35" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U36" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U37" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U38" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U39" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U40" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U41" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U42" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U43" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U44" pin="13" pinfunction="S3" pintype="input"/>
+      <node ref="U45" pin="13" pinfunction="S3" pintype="input"/>
+    </net>
+    <net code="40" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="15" pinfunction="~{E}" pintype="input"/>
+      <node ref="U11" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="15" pinfunction="~{E}" pintype="input"/>
+      <node ref="U13" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U14" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U15" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U16" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U17" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U18" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U19" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U20" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U21" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U22" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U23" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U23" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="U23" pin="38" pinfunction="GND" pintype="passive"/>
+      <node ref="U23" pin="39" pinfunction="GND" pintype="passive"/>
+      <node ref="U24" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U25" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U26" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U27" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U28" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U29" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U30" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U31" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U32" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U33" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U34" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U35" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U36" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U37" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U38" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U39" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="15" pinfunction="~{E}" pintype="input"/>
+      <node ref="U40" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U41" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U42" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U43" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U44" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U45" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="15" pinfunction="~{E}" pintype="input"/>
+      <node ref="U6" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="15" pinfunction="~{E}" pintype="input"/>
+      <node ref="U7" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="15" pinfunction="~{E}" pintype="input"/>
+      <node ref="U8" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="15" pinfunction="~{E}" pintype="input"/>
+      <node ref="U9" pin="12" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="41" name="Net-(BT1-+)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="CLK" pintype="input"/>
+      <node ref="U23" pin="20" pinfunction="SCK/CLK" pintype="bidirectional"/>
+      <node ref="U46" pin="5" pinfunction="BAT" pintype="output"/>
+    </net>
+    <net code="42" name="Net-(J1-CMD)">
+      <node ref="J1" pin="3" pinfunction="CMD" pintype="input"/>
+      <node ref="U23" pin="19" pinfunction="SCS/CMD" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="Net-(SW1A-A)">
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U46" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="44" name="Net-(U1-I0)">
+      <node ref="U1" pin="9" pinfunction="I0" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(U1-I1)">
+      <node ref="U1" pin="8" pinfunction="I1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(U24-I0)">
+      <node ref="U24" pin="9" pinfunction="I0" pintype="passive"/>
+      <node ref="U25" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(U24-I1)">
+      <node ref="U24" pin="8" pinfunction="I1" pintype="passive"/>
+      <node ref="U26" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="48" name="P25">
+      <node ref="U1" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U23" pin="10" pinfunction="IO25" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="P26">
+      <node ref="U23" pin="11" pinfunction="IO26" pintype="bidirectional"/>
+      <node ref="U24" pin="1" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="50" name="unconnected-(J1-DAT0-Pad7)">
+      <node ref="J1" pin="7" pinfunction="DAT0" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="unconnected-(J1-DAT1-Pad8)">
+      <node ref="J1" pin="8" pinfunction="DAT1" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="unconnected-(J1-DAT2-Pad1)">
+      <node ref="J1" pin="1" pinfunction="DAT2" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="unconnected-(J1-DAT3{slash}CD-Pad2)">
+      <node ref="J1" pin="2" pinfunction="DAT3/CD" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(J1-SHIELD-Pad9)">
+      <node ref="J1" pin="9" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(J1-VDD-Pad4)">
+      <node ref="J1" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="56" name="unconnected-(J1-VSS-Pad6)">
+      <node ref="J1" pin="6" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="57" name="unconnected-(U1-I2-Pad7)">
+      <node ref="U1" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="58" name="unconnected-(U1-I3-Pad6)">
+      <node ref="U1" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="59" name="unconnected-(U1-I4-Pad5)">
+      <node ref="U1" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="60" name="unconnected-(U1-I5-Pad4)">
+      <node ref="U1" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="61" name="unconnected-(U1-I6-Pad3)">
+      <node ref="U1" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="62" name="unconnected-(U1-I7-Pad2)">
+      <node ref="U1" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="63" name="unconnected-(U1-I8-Pad23)">
+      <node ref="U1" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="64" name="unconnected-(U1-I9-Pad22)">
+      <node ref="U1" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="65" name="unconnected-(U1-I10-Pad21)">
+      <node ref="U1" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="66" name="unconnected-(U1-I11-Pad20)">
+      <node ref="U1" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="67" name="unconnected-(U1-I12-Pad19)">
+      <node ref="U1" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="68" name="unconnected-(U1-I13-Pad18)">
+      <node ref="U1" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="69" name="unconnected-(U1-I14-Pad17)">
+      <node ref="U1" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="70" name="unconnected-(U1-I15-Pad16)">
+      <node ref="U1" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="71" name="unconnected-(U1-S1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="S1" pintype="input"/>
+    </net>
+    <net code="72" name="unconnected-(U1-S2-Pad14)">
+      <node ref="U1" pin="14" pinfunction="S2" pintype="input"/>
+    </net>
+    <net code="73" name="unconnected-(U1-S3-Pad13)">
+      <node ref="U1" pin="13" pinfunction="S3" pintype="input"/>
+    </net>
+    <net code="74" name="unconnected-(U1-~{E}-Pad15)">
+      <node ref="U1" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="75" name="unconnected-(U2-~{E}-Pad15)">
+      <node ref="U2" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="76" name="unconnected-(U3-I3-Pad6)">
+      <node ref="U3" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="77" name="unconnected-(U3-I4-Pad5)">
+      <node ref="U3" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="78" name="unconnected-(U3-I5-Pad4)">
+      <node ref="U3" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="79" name="unconnected-(U3-I6-Pad3)">
+      <node ref="U3" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="80" name="unconnected-(U3-I7-Pad2)">
+      <node ref="U3" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="81" name="unconnected-(U3-I8-Pad23)">
+      <node ref="U3" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="82" name="unconnected-(U3-I9-Pad22)">
+      <node ref="U3" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="83" name="unconnected-(U3-I10-Pad21)">
+      <node ref="U3" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="84" name="unconnected-(U3-I11-Pad20)">
+      <node ref="U3" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="85" name="unconnected-(U3-I12-Pad19)">
+      <node ref="U3" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="86" name="unconnected-(U3-I13-Pad18)">
+      <node ref="U3" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="87" name="unconnected-(U3-I14-Pad17)">
+      <node ref="U3" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="88" name="unconnected-(U3-I15-Pad16)">
+      <node ref="U3" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="89" name="unconnected-(U3-~{E}-Pad15)">
+      <node ref="U3" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="90" name="unconnected-(U4-I0-Pad9)">
+      <node ref="U4" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="91" name="unconnected-(U4-I1-Pad8)">
+      <node ref="U4" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="92" name="unconnected-(U4-I2-Pad7)">
+      <node ref="U4" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="93" name="unconnected-(U4-I3-Pad6)">
+      <node ref="U4" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="94" name="unconnected-(U4-I4-Pad5)">
+      <node ref="U4" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="95" name="unconnected-(U4-I5-Pad4)">
+      <node ref="U4" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="96" name="unconnected-(U4-I6-Pad3)">
+      <node ref="U4" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="97" name="unconnected-(U4-I7-Pad2)">
+      <node ref="U4" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="98" name="unconnected-(U4-I8-Pad23)">
+      <node ref="U4" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="99" name="unconnected-(U4-I9-Pad22)">
+      <node ref="U4" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="100" name="unconnected-(U4-I10-Pad21)">
+      <node ref="U4" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="101" name="unconnected-(U4-I11-Pad20)">
+      <node ref="U4" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="102" name="unconnected-(U4-I12-Pad19)">
+      <node ref="U4" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="103" name="unconnected-(U4-I13-Pad18)">
+      <node ref="U4" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="104" name="unconnected-(U4-I14-Pad17)">
+      <node ref="U4" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="105" name="unconnected-(U4-I15-Pad16)">
+      <node ref="U4" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="106" name="unconnected-(U5-I0-Pad9)">
+      <node ref="U5" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="107" name="unconnected-(U5-I1-Pad8)">
+      <node ref="U5" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="108" name="unconnected-(U5-I2-Pad7)">
+      <node ref="U5" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="109" name="unconnected-(U5-I3-Pad6)">
+      <node ref="U5" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="110" name="unconnected-(U5-I4-Pad5)">
+      <node ref="U5" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="111" name="unconnected-(U5-I5-Pad4)">
+      <node ref="U5" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="112" name="unconnected-(U5-I6-Pad3)">
+      <node ref="U5" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="113" name="unconnected-(U5-I7-Pad2)">
+      <node ref="U5" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="114" name="unconnected-(U5-I8-Pad23)">
+      <node ref="U5" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="115" name="unconnected-(U5-I9-Pad22)">
+      <node ref="U5" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="116" name="unconnected-(U5-I10-Pad21)">
+      <node ref="U5" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="117" name="unconnected-(U5-I11-Pad20)">
+      <node ref="U5" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="118" name="unconnected-(U5-I12-Pad19)">
+      <node ref="U5" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="119" name="unconnected-(U5-I13-Pad18)">
+      <node ref="U5" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="120" name="unconnected-(U5-I14-Pad17)">
+      <node ref="U5" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="121" name="unconnected-(U5-I15-Pad16)">
+      <node ref="U5" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="122" name="unconnected-(U6-I0-Pad9)">
+      <node ref="U6" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="123" name="unconnected-(U6-I1-Pad8)">
+      <node ref="U6" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="124" name="unconnected-(U6-I2-Pad7)">
+      <node ref="U6" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="125" name="unconnected-(U6-I3-Pad6)">
+      <node ref="U6" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="126" name="unconnected-(U6-I4-Pad5)">
+      <node ref="U6" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="127" name="unconnected-(U6-I5-Pad4)">
+      <node ref="U6" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="128" name="unconnected-(U6-I6-Pad3)">
+      <node ref="U6" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="129" name="unconnected-(U6-I7-Pad2)">
+      <node ref="U6" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="130" name="unconnected-(U6-I8-Pad23)">
+      <node ref="U6" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="131" name="unconnected-(U6-I9-Pad22)">
+      <node ref="U6" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="132" name="unconnected-(U6-I10-Pad21)">
+      <node ref="U6" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="133" name="unconnected-(U6-I11-Pad20)">
+      <node ref="U6" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="134" name="unconnected-(U6-I12-Pad19)">
+      <node ref="U6" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="135" name="unconnected-(U6-I13-Pad18)">
+      <node ref="U6" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="136" name="unconnected-(U6-I14-Pad17)">
+      <node ref="U6" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="137" name="unconnected-(U6-I15-Pad16)">
+      <node ref="U6" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="138" name="unconnected-(U7-I0-Pad9)">
+      <node ref="U7" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="139" name="unconnected-(U7-I1-Pad8)">
+      <node ref="U7" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="140" name="unconnected-(U7-I2-Pad7)">
+      <node ref="U7" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="141" name="unconnected-(U7-I3-Pad6)">
+      <node ref="U7" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="142" name="unconnected-(U7-I4-Pad5)">
+      <node ref="U7" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="143" name="unconnected-(U7-I5-Pad4)">
+      <node ref="U7" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="144" name="unconnected-(U7-I6-Pad3)">
+      <node ref="U7" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="145" name="unconnected-(U7-I7-Pad2)">
+      <node ref="U7" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="146" name="unconnected-(U7-I8-Pad23)">
+      <node ref="U7" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="147" name="unconnected-(U7-I9-Pad22)">
+      <node ref="U7" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="148" name="unconnected-(U7-I10-Pad21)">
+      <node ref="U7" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="149" name="unconnected-(U7-I11-Pad20)">
+      <node ref="U7" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="150" name="unconnected-(U7-I12-Pad19)">
+      <node ref="U7" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="151" name="unconnected-(U7-I13-Pad18)">
+      <node ref="U7" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="152" name="unconnected-(U7-I14-Pad17)">
+      <node ref="U7" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="153" name="unconnected-(U7-I15-Pad16)">
+      <node ref="U7" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="154" name="unconnected-(U8-I0-Pad9)">
+      <node ref="U8" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="155" name="unconnected-(U8-I1-Pad8)">
+      <node ref="U8" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="156" name="unconnected-(U8-I2-Pad7)">
+      <node ref="U8" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="157" name="unconnected-(U8-I3-Pad6)">
+      <node ref="U8" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="158" name="unconnected-(U8-I4-Pad5)">
+      <node ref="U8" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="159" name="unconnected-(U8-I5-Pad4)">
+      <node ref="U8" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="160" name="unconnected-(U8-I6-Pad3)">
+      <node ref="U8" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="161" name="unconnected-(U8-I7-Pad2)">
+      <node ref="U8" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="162" name="unconnected-(U8-I8-Pad23)">
+      <node ref="U8" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="163" name="unconnected-(U8-I9-Pad22)">
+      <node ref="U8" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="164" name="unconnected-(U8-I10-Pad21)">
+      <node ref="U8" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="165" name="unconnected-(U8-I11-Pad20)">
+      <node ref="U8" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="166" name="unconnected-(U8-I12-Pad19)">
+      <node ref="U8" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="167" name="unconnected-(U8-I13-Pad18)">
+      <node ref="U8" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="168" name="unconnected-(U8-I14-Pad17)">
+      <node ref="U8" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="169" name="unconnected-(U8-I15-Pad16)">
+      <node ref="U8" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="170" name="unconnected-(U9-I0-Pad9)">
+      <node ref="U9" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="171" name="unconnected-(U9-I1-Pad8)">
+      <node ref="U9" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="172" name="unconnected-(U9-I2-Pad7)">
+      <node ref="U9" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="173" name="unconnected-(U9-I3-Pad6)">
+      <node ref="U9" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="174" name="unconnected-(U9-I4-Pad5)">
+      <node ref="U9" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="175" name="unconnected-(U9-I5-Pad4)">
+      <node ref="U9" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="176" name="unconnected-(U9-I6-Pad3)">
+      <node ref="U9" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="177" name="unconnected-(U9-I7-Pad2)">
+      <node ref="U9" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="178" name="unconnected-(U9-I8-Pad23)">
+      <node ref="U9" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="179" name="unconnected-(U9-I9-Pad22)">
+      <node ref="U9" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="180" name="unconnected-(U9-I10-Pad21)">
+      <node ref="U9" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="181" name="unconnected-(U9-I11-Pad20)">
+      <node ref="U9" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="182" name="unconnected-(U9-I12-Pad19)">
+      <node ref="U9" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="183" name="unconnected-(U9-I13-Pad18)">
+      <node ref="U9" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="184" name="unconnected-(U9-I14-Pad17)">
+      <node ref="U9" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="185" name="unconnected-(U9-I15-Pad16)">
+      <node ref="U9" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="186" name="unconnected-(U9-~{E}-Pad15)">
+      <node ref="U9" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="187" name="unconnected-(U10-I0-Pad9)">
+      <node ref="U10" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="188" name="unconnected-(U10-I1-Pad8)">
+      <node ref="U10" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="189" name="unconnected-(U10-I2-Pad7)">
+      <node ref="U10" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="190" name="unconnected-(U10-I3-Pad6)">
+      <node ref="U10" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="191" name="unconnected-(U10-I4-Pad5)">
+      <node ref="U10" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="192" name="unconnected-(U10-I5-Pad4)">
+      <node ref="U10" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="193" name="unconnected-(U10-I6-Pad3)">
+      <node ref="U10" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="194" name="unconnected-(U10-I7-Pad2)">
+      <node ref="U10" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="195" name="unconnected-(U10-I8-Pad23)">
+      <node ref="U10" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="196" name="unconnected-(U10-I9-Pad22)">
+      <node ref="U10" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="197" name="unconnected-(U10-I10-Pad21)">
+      <node ref="U10" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="198" name="unconnected-(U10-I11-Pad20)">
+      <node ref="U10" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="199" name="unconnected-(U10-I12-Pad19)">
+      <node ref="U10" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="200" name="unconnected-(U10-I13-Pad18)">
+      <node ref="U10" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="201" name="unconnected-(U10-I14-Pad17)">
+      <node ref="U10" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="202" name="unconnected-(U10-I15-Pad16)">
+      <node ref="U10" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="203" name="unconnected-(U11-I0-Pad9)">
+      <node ref="U11" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="204" name="unconnected-(U11-I1-Pad8)">
+      <node ref="U11" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="205" name="unconnected-(U11-I2-Pad7)">
+      <node ref="U11" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="206" name="unconnected-(U11-I3-Pad6)">
+      <node ref="U11" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="207" name="unconnected-(U11-I4-Pad5)">
+      <node ref="U11" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="208" name="unconnected-(U11-I5-Pad4)">
+      <node ref="U11" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="209" name="unconnected-(U11-I6-Pad3)">
+      <node ref="U11" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="210" name="unconnected-(U11-I7-Pad2)">
+      <node ref="U11" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="211" name="unconnected-(U11-I8-Pad23)">
+      <node ref="U11" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="212" name="unconnected-(U11-I9-Pad22)">
+      <node ref="U11" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="213" name="unconnected-(U11-I10-Pad21)">
+      <node ref="U11" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="214" name="unconnected-(U11-I11-Pad20)">
+      <node ref="U11" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="215" name="unconnected-(U11-I12-Pad19)">
+      <node ref="U11" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="216" name="unconnected-(U11-I13-Pad18)">
+      <node ref="U11" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="217" name="unconnected-(U11-I14-Pad17)">
+      <node ref="U11" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="218" name="unconnected-(U11-I15-Pad16)">
+      <node ref="U11" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="219" name="unconnected-(U11-~{E}-Pad15)">
+      <node ref="U11" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="220" name="unconnected-(U12-I0-Pad9)">
+      <node ref="U12" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="221" name="unconnected-(U12-I1-Pad8)">
+      <node ref="U12" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="222" name="unconnected-(U12-I2-Pad7)">
+      <node ref="U12" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="223" name="unconnected-(U12-I3-Pad6)">
+      <node ref="U12" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="224" name="unconnected-(U12-I4-Pad5)">
+      <node ref="U12" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="225" name="unconnected-(U12-I5-Pad4)">
+      <node ref="U12" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="226" name="unconnected-(U12-I6-Pad3)">
+      <node ref="U12" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="227" name="unconnected-(U12-I7-Pad2)">
+      <node ref="U12" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="228" name="unconnected-(U12-I8-Pad23)">
+      <node ref="U12" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="229" name="unconnected-(U12-I9-Pad22)">
+      <node ref="U12" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="230" name="unconnected-(U12-I10-Pad21)">
+      <node ref="U12" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="231" name="unconnected-(U12-I11-Pad20)">
+      <node ref="U12" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="232" name="unconnected-(U12-I12-Pad19)">
+      <node ref="U12" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="233" name="unconnected-(U12-I13-Pad18)">
+      <node ref="U12" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="234" name="unconnected-(U12-I14-Pad17)">
+      <node ref="U12" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="235" name="unconnected-(U12-I15-Pad16)">
+      <node ref="U12" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="236" name="unconnected-(U12-VCC-Pad24)">
+      <node ref="U12" pin="24" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="237" name="unconnected-(U13-I0-Pad9)">
+      <node ref="U13" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="238" name="unconnected-(U13-I1-Pad8)">
+      <node ref="U13" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="239" name="unconnected-(U13-I2-Pad7)">
+      <node ref="U13" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="240" name="unconnected-(U13-I3-Pad6)">
+      <node ref="U13" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="241" name="unconnected-(U13-I4-Pad5)">
+      <node ref="U13" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="242" name="unconnected-(U13-I5-Pad4)">
+      <node ref="U13" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="243" name="unconnected-(U13-I6-Pad3)">
+      <node ref="U13" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="244" name="unconnected-(U13-I7-Pad2)">
+      <node ref="U13" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="245" name="unconnected-(U13-I8-Pad23)">
+      <node ref="U13" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="246" name="unconnected-(U13-I9-Pad22)">
+      <node ref="U13" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="247" name="unconnected-(U13-I10-Pad21)">
+      <node ref="U13" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="248" name="unconnected-(U13-I11-Pad20)">
+      <node ref="U13" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="249" name="unconnected-(U13-I12-Pad19)">
+      <node ref="U13" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="250" name="unconnected-(U13-I13-Pad18)">
+      <node ref="U13" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="251" name="unconnected-(U13-I14-Pad17)">
+      <node ref="U13" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="252" name="unconnected-(U13-I15-Pad16)">
+      <node ref="U13" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="253" name="unconnected-(U13-~{E}-Pad15)">
+      <node ref="U13" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="254" name="unconnected-(U14-I0-Pad9)">
+      <node ref="U14" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="255" name="unconnected-(U14-I1-Pad8)">
+      <node ref="U14" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="256" name="unconnected-(U14-I2-Pad7)">
+      <node ref="U14" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="257" name="unconnected-(U14-I3-Pad6)">
+      <node ref="U14" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="258" name="unconnected-(U14-I4-Pad5)">
+      <node ref="U14" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="259" name="unconnected-(U14-I5-Pad4)">
+      <node ref="U14" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="260" name="unconnected-(U14-I6-Pad3)">
+      <node ref="U14" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="261" name="unconnected-(U14-I7-Pad2)">
+      <node ref="U14" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="262" name="unconnected-(U14-I8-Pad23)">
+      <node ref="U14" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="263" name="unconnected-(U14-I9-Pad22)">
+      <node ref="U14" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="264" name="unconnected-(U14-I10-Pad21)">
+      <node ref="U14" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="265" name="unconnected-(U14-I11-Pad20)">
+      <node ref="U14" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="266" name="unconnected-(U14-I12-Pad19)">
+      <node ref="U14" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="267" name="unconnected-(U14-I13-Pad18)">
+      <node ref="U14" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="268" name="unconnected-(U14-I14-Pad17)">
+      <node ref="U14" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="269" name="unconnected-(U14-I15-Pad16)">
+      <node ref="U14" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="270" name="unconnected-(U14-~{E}-Pad15)">
+      <node ref="U14" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="271" name="unconnected-(U15-I0-Pad9)">
+      <node ref="U15" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="272" name="unconnected-(U15-I1-Pad8)">
+      <node ref="U15" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="273" name="unconnected-(U15-I2-Pad7)">
+      <node ref="U15" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="274" name="unconnected-(U15-I3-Pad6)">
+      <node ref="U15" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="275" name="unconnected-(U15-I4-Pad5)">
+      <node ref="U15" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="276" name="unconnected-(U15-I5-Pad4)">
+      <node ref="U15" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="277" name="unconnected-(U15-I6-Pad3)">
+      <node ref="U15" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="278" name="unconnected-(U15-I7-Pad2)">
+      <node ref="U15" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="279" name="unconnected-(U15-I8-Pad23)">
+      <node ref="U15" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="280" name="unconnected-(U15-I9-Pad22)">
+      <node ref="U15" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="281" name="unconnected-(U15-I10-Pad21)">
+      <node ref="U15" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="282" name="unconnected-(U15-I11-Pad20)">
+      <node ref="U15" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="283" name="unconnected-(U15-I12-Pad19)">
+      <node ref="U15" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="284" name="unconnected-(U15-I13-Pad18)">
+      <node ref="U15" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="285" name="unconnected-(U15-I14-Pad17)">
+      <node ref="U15" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="286" name="unconnected-(U15-I15-Pad16)">
+      <node ref="U15" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="287" name="unconnected-(U15-~{E}-Pad15)">
+      <node ref="U15" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="288" name="unconnected-(U16-I0-Pad9)">
+      <node ref="U16" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="289" name="unconnected-(U16-I1-Pad8)">
+      <node ref="U16" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="290" name="unconnected-(U16-I2-Pad7)">
+      <node ref="U16" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="291" name="unconnected-(U16-I3-Pad6)">
+      <node ref="U16" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="292" name="unconnected-(U16-I4-Pad5)">
+      <node ref="U16" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="293" name="unconnected-(U16-I5-Pad4)">
+      <node ref="U16" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="294" name="unconnected-(U16-I6-Pad3)">
+      <node ref="U16" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="295" name="unconnected-(U16-I7-Pad2)">
+      <node ref="U16" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="296" name="unconnected-(U16-I8-Pad23)">
+      <node ref="U16" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="297" name="unconnected-(U16-I9-Pad22)">
+      <node ref="U16" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="298" name="unconnected-(U16-I10-Pad21)">
+      <node ref="U16" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="299" name="unconnected-(U16-I11-Pad20)">
+      <node ref="U16" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="300" name="unconnected-(U16-I12-Pad19)">
+      <node ref="U16" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="301" name="unconnected-(U16-I13-Pad18)">
+      <node ref="U16" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="302" name="unconnected-(U16-I14-Pad17)">
+      <node ref="U16" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="303" name="unconnected-(U16-I15-Pad16)">
+      <node ref="U16" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="304" name="unconnected-(U16-~{E}-Pad15)">
+      <node ref="U16" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="305" name="unconnected-(U17-I0-Pad9)">
+      <node ref="U17" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="306" name="unconnected-(U17-I1-Pad8)">
+      <node ref="U17" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="307" name="unconnected-(U17-I2-Pad7)">
+      <node ref="U17" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="308" name="unconnected-(U17-I3-Pad6)">
+      <node ref="U17" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="309" name="unconnected-(U17-I4-Pad5)">
+      <node ref="U17" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="310" name="unconnected-(U17-I5-Pad4)">
+      <node ref="U17" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="311" name="unconnected-(U17-I6-Pad3)">
+      <node ref="U17" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="312" name="unconnected-(U17-I7-Pad2)">
+      <node ref="U17" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="313" name="unconnected-(U17-I8-Pad23)">
+      <node ref="U17" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="314" name="unconnected-(U17-I9-Pad22)">
+      <node ref="U17" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="315" name="unconnected-(U17-I10-Pad21)">
+      <node ref="U17" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="316" name="unconnected-(U17-I11-Pad20)">
+      <node ref="U17" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="317" name="unconnected-(U17-I12-Pad19)">
+      <node ref="U17" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="318" name="unconnected-(U17-I13-Pad18)">
+      <node ref="U17" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="319" name="unconnected-(U17-I14-Pad17)">
+      <node ref="U17" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="320" name="unconnected-(U17-I15-Pad16)">
+      <node ref="U17" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="321" name="unconnected-(U17-~{E}-Pad15)">
+      <node ref="U17" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="322" name="unconnected-(U18-I0-Pad9)">
+      <node ref="U18" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="323" name="unconnected-(U18-I1-Pad8)">
+      <node ref="U18" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="324" name="unconnected-(U18-I2-Pad7)">
+      <node ref="U18" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="325" name="unconnected-(U18-I3-Pad6)">
+      <node ref="U18" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="326" name="unconnected-(U18-I4-Pad5)">
+      <node ref="U18" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="327" name="unconnected-(U18-I5-Pad4)">
+      <node ref="U18" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="328" name="unconnected-(U18-I6-Pad3)">
+      <node ref="U18" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="329" name="unconnected-(U18-I7-Pad2)">
+      <node ref="U18" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="330" name="unconnected-(U18-I8-Pad23)">
+      <node ref="U18" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="331" name="unconnected-(U18-I9-Pad22)">
+      <node ref="U18" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="332" name="unconnected-(U18-I10-Pad21)">
+      <node ref="U18" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="333" name="unconnected-(U18-I11-Pad20)">
+      <node ref="U18" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="334" name="unconnected-(U18-I12-Pad19)">
+      <node ref="U18" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="335" name="unconnected-(U18-I13-Pad18)">
+      <node ref="U18" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="336" name="unconnected-(U18-I14-Pad17)">
+      <node ref="U18" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="337" name="unconnected-(U18-I15-Pad16)">
+      <node ref="U18" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="338" name="unconnected-(U18-~{E}-Pad15)">
+      <node ref="U18" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="339" name="unconnected-(U19-I0-Pad9)">
+      <node ref="U19" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="340" name="unconnected-(U19-I1-Pad8)">
+      <node ref="U19" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="341" name="unconnected-(U19-I2-Pad7)">
+      <node ref="U19" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="342" name="unconnected-(U19-I3-Pad6)">
+      <node ref="U19" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="343" name="unconnected-(U19-I4-Pad5)">
+      <node ref="U19" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="344" name="unconnected-(U19-I5-Pad4)">
+      <node ref="U19" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="345" name="unconnected-(U19-I6-Pad3)">
+      <node ref="U19" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="346" name="unconnected-(U19-I7-Pad2)">
+      <node ref="U19" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="347" name="unconnected-(U19-I8-Pad23)">
+      <node ref="U19" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="348" name="unconnected-(U19-I9-Pad22)">
+      <node ref="U19" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="349" name="unconnected-(U19-I10-Pad21)">
+      <node ref="U19" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="350" name="unconnected-(U19-I11-Pad20)">
+      <node ref="U19" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="351" name="unconnected-(U19-I12-Pad19)">
+      <node ref="U19" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="352" name="unconnected-(U19-I13-Pad18)">
+      <node ref="U19" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="353" name="unconnected-(U19-I14-Pad17)">
+      <node ref="U19" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="354" name="unconnected-(U19-I15-Pad16)">
+      <node ref="U19" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="355" name="unconnected-(U19-~{E}-Pad15)">
+      <node ref="U19" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="356" name="unconnected-(U20-I0-Pad9)">
+      <node ref="U20" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="357" name="unconnected-(U20-I1-Pad8)">
+      <node ref="U20" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="358" name="unconnected-(U20-I2-Pad7)">
+      <node ref="U20" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="359" name="unconnected-(U20-I3-Pad6)">
+      <node ref="U20" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="360" name="unconnected-(U20-I4-Pad5)">
+      <node ref="U20" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="361" name="unconnected-(U20-I5-Pad4)">
+      <node ref="U20" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="362" name="unconnected-(U20-I6-Pad3)">
+      <node ref="U20" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="363" name="unconnected-(U20-I7-Pad2)">
+      <node ref="U20" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="364" name="unconnected-(U20-I8-Pad23)">
+      <node ref="U20" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="365" name="unconnected-(U20-I9-Pad22)">
+      <node ref="U20" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="366" name="unconnected-(U20-I10-Pad21)">
+      <node ref="U20" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="367" name="unconnected-(U20-I11-Pad20)">
+      <node ref="U20" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="368" name="unconnected-(U20-I12-Pad19)">
+      <node ref="U20" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="369" name="unconnected-(U20-I13-Pad18)">
+      <node ref="U20" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="370" name="unconnected-(U20-I14-Pad17)">
+      <node ref="U20" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="371" name="unconnected-(U20-I15-Pad16)">
+      <node ref="U20" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="372" name="unconnected-(U20-~{E}-Pad15)">
+      <node ref="U20" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="373" name="unconnected-(U21-I0-Pad9)">
+      <node ref="U21" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="374" name="unconnected-(U21-I1-Pad8)">
+      <node ref="U21" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="375" name="unconnected-(U21-I2-Pad7)">
+      <node ref="U21" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="376" name="unconnected-(U21-I3-Pad6)">
+      <node ref="U21" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="377" name="unconnected-(U21-I4-Pad5)">
+      <node ref="U21" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="378" name="unconnected-(U21-I5-Pad4)">
+      <node ref="U21" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="379" name="unconnected-(U21-I6-Pad3)">
+      <node ref="U21" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="380" name="unconnected-(U21-I7-Pad2)">
+      <node ref="U21" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="381" name="unconnected-(U21-I8-Pad23)">
+      <node ref="U21" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="382" name="unconnected-(U21-I9-Pad22)">
+      <node ref="U21" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="383" name="unconnected-(U21-I10-Pad21)">
+      <node ref="U21" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="384" name="unconnected-(U21-I11-Pad20)">
+      <node ref="U21" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="385" name="unconnected-(U21-I12-Pad19)">
+      <node ref="U21" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="386" name="unconnected-(U21-I13-Pad18)">
+      <node ref="U21" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="387" name="unconnected-(U21-I14-Pad17)">
+      <node ref="U21" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="388" name="unconnected-(U21-I15-Pad16)">
+      <node ref="U21" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="389" name="unconnected-(U21-~{E}-Pad15)">
+      <node ref="U21" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="390" name="unconnected-(U22-I0-Pad9)">
+      <node ref="U22" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="391" name="unconnected-(U22-I1-Pad8)">
+      <node ref="U22" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="392" name="unconnected-(U22-I2-Pad7)">
+      <node ref="U22" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="393" name="unconnected-(U22-I3-Pad6)">
+      <node ref="U22" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="394" name="unconnected-(U22-I4-Pad5)">
+      <node ref="U22" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="395" name="unconnected-(U22-I5-Pad4)">
+      <node ref="U22" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="396" name="unconnected-(U22-I6-Pad3)">
+      <node ref="U22" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="397" name="unconnected-(U22-I7-Pad2)">
+      <node ref="U22" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="398" name="unconnected-(U22-I8-Pad23)">
+      <node ref="U22" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="399" name="unconnected-(U22-I9-Pad22)">
+      <node ref="U22" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="400" name="unconnected-(U22-I10-Pad21)">
+      <node ref="U22" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="401" name="unconnected-(U22-I11-Pad20)">
+      <node ref="U22" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="402" name="unconnected-(U22-I12-Pad19)">
+      <node ref="U22" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="403" name="unconnected-(U22-I13-Pad18)">
+      <node ref="U22" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="404" name="unconnected-(U22-I14-Pad17)">
+      <node ref="U22" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="405" name="unconnected-(U22-I15-Pad16)">
+      <node ref="U22" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="406" name="unconnected-(U22-~{E}-Pad15)">
+      <node ref="U22" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="407" name="unconnected-(U23-EN-Pad3)">
+      <node ref="U23" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="408" name="unconnected-(U23-IO32-Pad8)">
+      <node ref="U23" pin="8" pinfunction="IO32" pintype="bidirectional"/>
+    </net>
+    <net code="409" name="unconnected-(U23-IO33-Pad9)">
+      <node ref="U23" pin="9" pinfunction="IO33" pintype="bidirectional"/>
+    </net>
+    <net code="410" name="unconnected-(U23-IO34-Pad6)">
+      <node ref="U23" pin="6" pinfunction="IO34" pintype="input"/>
+    </net>
+    <net code="411" name="unconnected-(U23-IO35-Pad7)">
+      <node ref="U23" pin="7" pinfunction="IO35" pintype="input"/>
+    </net>
+    <net code="412" name="unconnected-(U23-NC-Pad32)">
+      <node ref="U23" pin="32" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="413" name="unconnected-(U23-SDI{slash}SD1-Pad22)">
+      <node ref="U23" pin="22" pinfunction="SDI/SD1" pintype="bidirectional"/>
+    </net>
+    <net code="414" name="unconnected-(U23-SDO{slash}SD0-Pad21)">
+      <node ref="U23" pin="21" pinfunction="SDO/SD0" pintype="bidirectional"/>
+    </net>
+    <net code="415" name="unconnected-(U23-SENSOR_VN-Pad5)">
+      <node ref="U23" pin="5" pinfunction="SENSOR_VN" pintype="input"/>
+    </net>
+    <net code="416" name="unconnected-(U23-SENSOR_VP-Pad4)">
+      <node ref="U23" pin="4" pinfunction="SENSOR_VP" pintype="input"/>
+    </net>
+    <net code="417" name="unconnected-(U23-SHD{slash}SD2-Pad17)">
+      <node ref="U23" pin="17" pinfunction="SHD/SD2" pintype="bidirectional"/>
+    </net>
+    <net code="418" name="unconnected-(U23-SWP{slash}SD3-Pad18)">
+      <node ref="U23" pin="18" pinfunction="SWP/SD3" pintype="bidirectional"/>
+    </net>
+    <net code="419" name="unconnected-(U24-I2-Pad7)">
+      <node ref="U24" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="420" name="unconnected-(U24-I3-Pad6)">
+      <node ref="U24" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="421" name="unconnected-(U24-I4-Pad5)">
+      <node ref="U24" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="422" name="unconnected-(U24-I5-Pad4)">
+      <node ref="U24" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="423" name="unconnected-(U24-I6-Pad3)">
+      <node ref="U24" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="424" name="unconnected-(U24-I7-Pad2)">
+      <node ref="U24" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="425" name="unconnected-(U24-I8-Pad23)">
+      <node ref="U24" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="426" name="unconnected-(U24-I9-Pad22)">
+      <node ref="U24" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="427" name="unconnected-(U24-I10-Pad21)">
+      <node ref="U24" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="428" name="unconnected-(U24-I11-Pad20)">
+      <node ref="U24" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="429" name="unconnected-(U24-I12-Pad19)">
+      <node ref="U24" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="430" name="unconnected-(U24-I13-Pad18)">
+      <node ref="U24" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="431" name="unconnected-(U24-I14-Pad17)">
+      <node ref="U24" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="432" name="unconnected-(U24-I15-Pad16)">
+      <node ref="U24" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="433" name="unconnected-(U24-S1-Pad11)">
+      <node ref="U24" pin="11" pinfunction="S1" pintype="input"/>
+    </net>
+    <net code="434" name="unconnected-(U24-S2-Pad14)">
+      <node ref="U24" pin="14" pinfunction="S2" pintype="input"/>
+    </net>
+    <net code="435" name="unconnected-(U24-S3-Pad13)">
+      <node ref="U24" pin="13" pinfunction="S3" pintype="input"/>
+    </net>
+    <net code="436" name="unconnected-(U24-~{E}-Pad15)">
+      <node ref="U24" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="437" name="unconnected-(U25-~{E}-Pad15)">
+      <node ref="U25" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="438" name="unconnected-(U26-I3-Pad6)">
+      <node ref="U26" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="439" name="unconnected-(U26-I4-Pad5)">
+      <node ref="U26" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="440" name="unconnected-(U26-I5-Pad4)">
+      <node ref="U26" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="441" name="unconnected-(U26-I6-Pad3)">
+      <node ref="U26" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="442" name="unconnected-(U26-I7-Pad2)">
+      <node ref="U26" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="443" name="unconnected-(U26-I8-Pad23)">
+      <node ref="U26" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="444" name="unconnected-(U26-I9-Pad22)">
+      <node ref="U26" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="445" name="unconnected-(U26-I10-Pad21)">
+      <node ref="U26" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="446" name="unconnected-(U26-I11-Pad20)">
+      <node ref="U26" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="447" name="unconnected-(U26-I12-Pad19)">
+      <node ref="U26" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="448" name="unconnected-(U26-I13-Pad18)">
+      <node ref="U26" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="449" name="unconnected-(U26-I14-Pad17)">
+      <node ref="U26" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="450" name="unconnected-(U26-I15-Pad16)">
+      <node ref="U26" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="451" name="unconnected-(U26-~{E}-Pad15)">
+      <node ref="U26" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="452" name="unconnected-(U27-I0-Pad9)">
+      <node ref="U27" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="453" name="unconnected-(U27-I1-Pad8)">
+      <node ref="U27" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="454" name="unconnected-(U27-I2-Pad7)">
+      <node ref="U27" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="455" name="unconnected-(U27-I3-Pad6)">
+      <node ref="U27" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="456" name="unconnected-(U27-I4-Pad5)">
+      <node ref="U27" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="457" name="unconnected-(U27-I5-Pad4)">
+      <node ref="U27" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="458" name="unconnected-(U27-I6-Pad3)">
+      <node ref="U27" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="459" name="unconnected-(U27-I7-Pad2)">
+      <node ref="U27" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="460" name="unconnected-(U27-I8-Pad23)">
+      <node ref="U27" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="461" name="unconnected-(U27-I9-Pad22)">
+      <node ref="U27" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="462" name="unconnected-(U27-I10-Pad21)">
+      <node ref="U27" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="463" name="unconnected-(U27-I11-Pad20)">
+      <node ref="U27" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="464" name="unconnected-(U27-I12-Pad19)">
+      <node ref="U27" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="465" name="unconnected-(U27-I13-Pad18)">
+      <node ref="U27" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="466" name="unconnected-(U27-I14-Pad17)">
+      <node ref="U27" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="467" name="unconnected-(U27-I15-Pad16)">
+      <node ref="U27" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="468" name="unconnected-(U27-~{E}-Pad15)">
+      <node ref="U27" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="469" name="unconnected-(U28-I0-Pad9)">
+      <node ref="U28" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="470" name="unconnected-(U28-I1-Pad8)">
+      <node ref="U28" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="471" name="unconnected-(U28-I2-Pad7)">
+      <node ref="U28" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="472" name="unconnected-(U28-I3-Pad6)">
+      <node ref="U28" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="473" name="unconnected-(U28-I4-Pad5)">
+      <node ref="U28" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="474" name="unconnected-(U28-I5-Pad4)">
+      <node ref="U28" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="475" name="unconnected-(U28-I6-Pad3)">
+      <node ref="U28" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="476" name="unconnected-(U28-I7-Pad2)">
+      <node ref="U28" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="477" name="unconnected-(U28-I8-Pad23)">
+      <node ref="U28" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="478" name="unconnected-(U28-I9-Pad22)">
+      <node ref="U28" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="479" name="unconnected-(U28-I10-Pad21)">
+      <node ref="U28" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="480" name="unconnected-(U28-I11-Pad20)">
+      <node ref="U28" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="481" name="unconnected-(U28-I12-Pad19)">
+      <node ref="U28" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="482" name="unconnected-(U28-I13-Pad18)">
+      <node ref="U28" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="483" name="unconnected-(U28-I14-Pad17)">
+      <node ref="U28" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="484" name="unconnected-(U28-I15-Pad16)">
+      <node ref="U28" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="485" name="unconnected-(U28-~{E}-Pad15)">
+      <node ref="U28" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="486" name="unconnected-(U29-I0-Pad9)">
+      <node ref="U29" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="487" name="unconnected-(U29-I1-Pad8)">
+      <node ref="U29" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="488" name="unconnected-(U29-I2-Pad7)">
+      <node ref="U29" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="489" name="unconnected-(U29-I3-Pad6)">
+      <node ref="U29" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="490" name="unconnected-(U29-I4-Pad5)">
+      <node ref="U29" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="491" name="unconnected-(U29-I5-Pad4)">
+      <node ref="U29" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="492" name="unconnected-(U29-I6-Pad3)">
+      <node ref="U29" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="493" name="unconnected-(U29-I7-Pad2)">
+      <node ref="U29" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="494" name="unconnected-(U29-I8-Pad23)">
+      <node ref="U29" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="495" name="unconnected-(U29-I9-Pad22)">
+      <node ref="U29" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="496" name="unconnected-(U29-I10-Pad21)">
+      <node ref="U29" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="497" name="unconnected-(U29-I11-Pad20)">
+      <node ref="U29" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="498" name="unconnected-(U29-I12-Pad19)">
+      <node ref="U29" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="499" name="unconnected-(U29-I13-Pad18)">
+      <node ref="U29" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="500" name="unconnected-(U29-I14-Pad17)">
+      <node ref="U29" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="501" name="unconnected-(U29-I15-Pad16)">
+      <node ref="U29" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="502" name="unconnected-(U29-~{E}-Pad15)">
+      <node ref="U29" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="503" name="unconnected-(U30-I0-Pad9)">
+      <node ref="U30" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="504" name="unconnected-(U30-I1-Pad8)">
+      <node ref="U30" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="505" name="unconnected-(U30-I2-Pad7)">
+      <node ref="U30" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="506" name="unconnected-(U30-I3-Pad6)">
+      <node ref="U30" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="507" name="unconnected-(U30-I4-Pad5)">
+      <node ref="U30" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="508" name="unconnected-(U30-I5-Pad4)">
+      <node ref="U30" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="509" name="unconnected-(U30-I6-Pad3)">
+      <node ref="U30" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="510" name="unconnected-(U30-I7-Pad2)">
+      <node ref="U30" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="511" name="unconnected-(U30-I8-Pad23)">
+      <node ref="U30" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="512" name="unconnected-(U30-I9-Pad22)">
+      <node ref="U30" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="513" name="unconnected-(U30-I10-Pad21)">
+      <node ref="U30" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="514" name="unconnected-(U30-I11-Pad20)">
+      <node ref="U30" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="515" name="unconnected-(U30-I12-Pad19)">
+      <node ref="U30" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="516" name="unconnected-(U30-I13-Pad18)">
+      <node ref="U30" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="517" name="unconnected-(U30-I14-Pad17)">
+      <node ref="U30" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="518" name="unconnected-(U30-I15-Pad16)">
+      <node ref="U30" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="519" name="unconnected-(U30-~{E}-Pad15)">
+      <node ref="U30" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="520" name="unconnected-(U31-I0-Pad9)">
+      <node ref="U31" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="521" name="unconnected-(U31-I1-Pad8)">
+      <node ref="U31" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="522" name="unconnected-(U31-I2-Pad7)">
+      <node ref="U31" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="523" name="unconnected-(U31-I3-Pad6)">
+      <node ref="U31" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="524" name="unconnected-(U31-I4-Pad5)">
+      <node ref="U31" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="525" name="unconnected-(U31-I5-Pad4)">
+      <node ref="U31" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="526" name="unconnected-(U31-I6-Pad3)">
+      <node ref="U31" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="527" name="unconnected-(U31-I7-Pad2)">
+      <node ref="U31" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="528" name="unconnected-(U31-I8-Pad23)">
+      <node ref="U31" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="529" name="unconnected-(U31-I9-Pad22)">
+      <node ref="U31" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="530" name="unconnected-(U31-I10-Pad21)">
+      <node ref="U31" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="531" name="unconnected-(U31-I11-Pad20)">
+      <node ref="U31" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="532" name="unconnected-(U31-I12-Pad19)">
+      <node ref="U31" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="533" name="unconnected-(U31-I13-Pad18)">
+      <node ref="U31" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="534" name="unconnected-(U31-I14-Pad17)">
+      <node ref="U31" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="535" name="unconnected-(U31-I15-Pad16)">
+      <node ref="U31" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="536" name="unconnected-(U31-~{E}-Pad15)">
+      <node ref="U31" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="537" name="unconnected-(U32-I0-Pad9)">
+      <node ref="U32" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="538" name="unconnected-(U32-I1-Pad8)">
+      <node ref="U32" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="539" name="unconnected-(U32-I2-Pad7)">
+      <node ref="U32" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="540" name="unconnected-(U32-I3-Pad6)">
+      <node ref="U32" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="541" name="unconnected-(U32-I4-Pad5)">
+      <node ref="U32" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="542" name="unconnected-(U32-I5-Pad4)">
+      <node ref="U32" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="543" name="unconnected-(U32-I6-Pad3)">
+      <node ref="U32" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="544" name="unconnected-(U32-I7-Pad2)">
+      <node ref="U32" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="545" name="unconnected-(U32-I8-Pad23)">
+      <node ref="U32" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="546" name="unconnected-(U32-I9-Pad22)">
+      <node ref="U32" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="547" name="unconnected-(U32-I10-Pad21)">
+      <node ref="U32" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="548" name="unconnected-(U32-I11-Pad20)">
+      <node ref="U32" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="549" name="unconnected-(U32-I12-Pad19)">
+      <node ref="U32" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="550" name="unconnected-(U32-I13-Pad18)">
+      <node ref="U32" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="551" name="unconnected-(U32-I14-Pad17)">
+      <node ref="U32" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="552" name="unconnected-(U32-I15-Pad16)">
+      <node ref="U32" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="553" name="unconnected-(U32-~{E}-Pad15)">
+      <node ref="U32" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="554" name="unconnected-(U33-I0-Pad9)">
+      <node ref="U33" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="555" name="unconnected-(U33-I1-Pad8)">
+      <node ref="U33" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="556" name="unconnected-(U33-I2-Pad7)">
+      <node ref="U33" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="557" name="unconnected-(U33-I3-Pad6)">
+      <node ref="U33" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="558" name="unconnected-(U33-I4-Pad5)">
+      <node ref="U33" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="559" name="unconnected-(U33-I5-Pad4)">
+      <node ref="U33" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="560" name="unconnected-(U33-I6-Pad3)">
+      <node ref="U33" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="561" name="unconnected-(U33-I7-Pad2)">
+      <node ref="U33" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="562" name="unconnected-(U33-I8-Pad23)">
+      <node ref="U33" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="563" name="unconnected-(U33-I9-Pad22)">
+      <node ref="U33" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="564" name="unconnected-(U33-I10-Pad21)">
+      <node ref="U33" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="565" name="unconnected-(U33-I11-Pad20)">
+      <node ref="U33" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="566" name="unconnected-(U33-I12-Pad19)">
+      <node ref="U33" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="567" name="unconnected-(U33-I13-Pad18)">
+      <node ref="U33" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="568" name="unconnected-(U33-I14-Pad17)">
+      <node ref="U33" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="569" name="unconnected-(U33-I15-Pad16)">
+      <node ref="U33" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="570" name="unconnected-(U33-~{E}-Pad15)">
+      <node ref="U33" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="571" name="unconnected-(U34-I0-Pad9)">
+      <node ref="U34" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="572" name="unconnected-(U34-I1-Pad8)">
+      <node ref="U34" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="573" name="unconnected-(U34-I2-Pad7)">
+      <node ref="U34" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="574" name="unconnected-(U34-I3-Pad6)">
+      <node ref="U34" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="575" name="unconnected-(U34-I4-Pad5)">
+      <node ref="U34" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="576" name="unconnected-(U34-I5-Pad4)">
+      <node ref="U34" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="577" name="unconnected-(U34-I6-Pad3)">
+      <node ref="U34" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="578" name="unconnected-(U34-I7-Pad2)">
+      <node ref="U34" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="579" name="unconnected-(U34-I8-Pad23)">
+      <node ref="U34" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="580" name="unconnected-(U34-I9-Pad22)">
+      <node ref="U34" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="581" name="unconnected-(U34-I10-Pad21)">
+      <node ref="U34" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="582" name="unconnected-(U34-I11-Pad20)">
+      <node ref="U34" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="583" name="unconnected-(U34-I12-Pad19)">
+      <node ref="U34" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="584" name="unconnected-(U34-I13-Pad18)">
+      <node ref="U34" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="585" name="unconnected-(U34-I14-Pad17)">
+      <node ref="U34" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="586" name="unconnected-(U34-I15-Pad16)">
+      <node ref="U34" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="587" name="unconnected-(U34-~{E}-Pad15)">
+      <node ref="U34" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="588" name="unconnected-(U35-I0-Pad9)">
+      <node ref="U35" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="589" name="unconnected-(U35-I1-Pad8)">
+      <node ref="U35" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="590" name="unconnected-(U35-I2-Pad7)">
+      <node ref="U35" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="591" name="unconnected-(U35-I3-Pad6)">
+      <node ref="U35" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="592" name="unconnected-(U35-I4-Pad5)">
+      <node ref="U35" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="593" name="unconnected-(U35-I5-Pad4)">
+      <node ref="U35" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="594" name="unconnected-(U35-I6-Pad3)">
+      <node ref="U35" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="595" name="unconnected-(U35-I7-Pad2)">
+      <node ref="U35" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="596" name="unconnected-(U35-I8-Pad23)">
+      <node ref="U35" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="597" name="unconnected-(U35-I9-Pad22)">
+      <node ref="U35" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="598" name="unconnected-(U35-I10-Pad21)">
+      <node ref="U35" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="599" name="unconnected-(U35-I11-Pad20)">
+      <node ref="U35" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="600" name="unconnected-(U35-I12-Pad19)">
+      <node ref="U35" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="601" name="unconnected-(U35-I13-Pad18)">
+      <node ref="U35" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="602" name="unconnected-(U35-I14-Pad17)">
+      <node ref="U35" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="603" name="unconnected-(U35-I15-Pad16)">
+      <node ref="U35" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="604" name="unconnected-(U35-~{E}-Pad15)">
+      <node ref="U35" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="605" name="unconnected-(U36-I0-Pad9)">
+      <node ref="U36" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="606" name="unconnected-(U36-I1-Pad8)">
+      <node ref="U36" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="607" name="unconnected-(U36-I2-Pad7)">
+      <node ref="U36" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="608" name="unconnected-(U36-I3-Pad6)">
+      <node ref="U36" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="609" name="unconnected-(U36-I4-Pad5)">
+      <node ref="U36" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="610" name="unconnected-(U36-I5-Pad4)">
+      <node ref="U36" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="611" name="unconnected-(U36-I6-Pad3)">
+      <node ref="U36" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="612" name="unconnected-(U36-I7-Pad2)">
+      <node ref="U36" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="613" name="unconnected-(U36-I8-Pad23)">
+      <node ref="U36" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="614" name="unconnected-(U36-I9-Pad22)">
+      <node ref="U36" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="615" name="unconnected-(U36-I10-Pad21)">
+      <node ref="U36" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="616" name="unconnected-(U36-I11-Pad20)">
+      <node ref="U36" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="617" name="unconnected-(U36-I12-Pad19)">
+      <node ref="U36" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="618" name="unconnected-(U36-I13-Pad18)">
+      <node ref="U36" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="619" name="unconnected-(U36-I14-Pad17)">
+      <node ref="U36" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="620" name="unconnected-(U36-I15-Pad16)">
+      <node ref="U36" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="621" name="unconnected-(U36-~{E}-Pad15)">
+      <node ref="U36" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="622" name="unconnected-(U37-I0-Pad9)">
+      <node ref="U37" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="623" name="unconnected-(U37-I1-Pad8)">
+      <node ref="U37" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="624" name="unconnected-(U37-I2-Pad7)">
+      <node ref="U37" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="625" name="unconnected-(U37-I3-Pad6)">
+      <node ref="U37" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="626" name="unconnected-(U37-I4-Pad5)">
+      <node ref="U37" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="627" name="unconnected-(U37-I5-Pad4)">
+      <node ref="U37" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="628" name="unconnected-(U37-I6-Pad3)">
+      <node ref="U37" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="629" name="unconnected-(U37-I7-Pad2)">
+      <node ref="U37" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="630" name="unconnected-(U37-I8-Pad23)">
+      <node ref="U37" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="631" name="unconnected-(U37-I9-Pad22)">
+      <node ref="U37" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="632" name="unconnected-(U37-I10-Pad21)">
+      <node ref="U37" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="633" name="unconnected-(U37-I11-Pad20)">
+      <node ref="U37" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="634" name="unconnected-(U37-I12-Pad19)">
+      <node ref="U37" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="635" name="unconnected-(U37-I13-Pad18)">
+      <node ref="U37" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="636" name="unconnected-(U37-I14-Pad17)">
+      <node ref="U37" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="637" name="unconnected-(U37-I15-Pad16)">
+      <node ref="U37" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="638" name="unconnected-(U37-~{E}-Pad15)">
+      <node ref="U37" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="639" name="unconnected-(U38-I0-Pad9)">
+      <node ref="U38" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="640" name="unconnected-(U38-I1-Pad8)">
+      <node ref="U38" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="641" name="unconnected-(U38-I2-Pad7)">
+      <node ref="U38" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="642" name="unconnected-(U38-I3-Pad6)">
+      <node ref="U38" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="643" name="unconnected-(U38-I4-Pad5)">
+      <node ref="U38" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="644" name="unconnected-(U38-I5-Pad4)">
+      <node ref="U38" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="645" name="unconnected-(U38-I6-Pad3)">
+      <node ref="U38" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="646" name="unconnected-(U38-I7-Pad2)">
+      <node ref="U38" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="647" name="unconnected-(U38-I8-Pad23)">
+      <node ref="U38" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="648" name="unconnected-(U38-I9-Pad22)">
+      <node ref="U38" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="649" name="unconnected-(U38-I10-Pad21)">
+      <node ref="U38" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="650" name="unconnected-(U38-I11-Pad20)">
+      <node ref="U38" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="651" name="unconnected-(U38-I12-Pad19)">
+      <node ref="U38" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="652" name="unconnected-(U38-I13-Pad18)">
+      <node ref="U38" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="653" name="unconnected-(U38-I14-Pad17)">
+      <node ref="U38" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="654" name="unconnected-(U38-I15-Pad16)">
+      <node ref="U38" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="655" name="unconnected-(U38-~{E}-Pad15)">
+      <node ref="U38" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="656" name="unconnected-(U39-I0-Pad9)">
+      <node ref="U39" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="657" name="unconnected-(U39-I1-Pad8)">
+      <node ref="U39" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="658" name="unconnected-(U39-I2-Pad7)">
+      <node ref="U39" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="659" name="unconnected-(U39-I3-Pad6)">
+      <node ref="U39" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="660" name="unconnected-(U39-I4-Pad5)">
+      <node ref="U39" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="661" name="unconnected-(U39-I5-Pad4)">
+      <node ref="U39" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="662" name="unconnected-(U39-I6-Pad3)">
+      <node ref="U39" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="663" name="unconnected-(U39-I7-Pad2)">
+      <node ref="U39" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="664" name="unconnected-(U39-I8-Pad23)">
+      <node ref="U39" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="665" name="unconnected-(U39-I9-Pad22)">
+      <node ref="U39" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="666" name="unconnected-(U39-I10-Pad21)">
+      <node ref="U39" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="667" name="unconnected-(U39-I11-Pad20)">
+      <node ref="U39" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="668" name="unconnected-(U39-I12-Pad19)">
+      <node ref="U39" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="669" name="unconnected-(U39-I13-Pad18)">
+      <node ref="U39" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="670" name="unconnected-(U39-I14-Pad17)">
+      <node ref="U39" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="671" name="unconnected-(U39-I15-Pad16)">
+      <node ref="U39" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="672" name="unconnected-(U39-~{E}-Pad15)">
+      <node ref="U39" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="673" name="unconnected-(U40-I0-Pad9)">
+      <node ref="U40" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="674" name="unconnected-(U40-I1-Pad8)">
+      <node ref="U40" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="675" name="unconnected-(U40-I2-Pad7)">
+      <node ref="U40" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="676" name="unconnected-(U40-I3-Pad6)">
+      <node ref="U40" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="677" name="unconnected-(U40-I4-Pad5)">
+      <node ref="U40" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="678" name="unconnected-(U40-I5-Pad4)">
+      <node ref="U40" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="679" name="unconnected-(U40-I6-Pad3)">
+      <node ref="U40" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="680" name="unconnected-(U40-I7-Pad2)">
+      <node ref="U40" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="681" name="unconnected-(U40-I8-Pad23)">
+      <node ref="U40" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="682" name="unconnected-(U40-I9-Pad22)">
+      <node ref="U40" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="683" name="unconnected-(U40-I10-Pad21)">
+      <node ref="U40" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="684" name="unconnected-(U40-I11-Pad20)">
+      <node ref="U40" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="685" name="unconnected-(U40-I12-Pad19)">
+      <node ref="U40" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="686" name="unconnected-(U40-I13-Pad18)">
+      <node ref="U40" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="687" name="unconnected-(U40-I14-Pad17)">
+      <node ref="U40" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="688" name="unconnected-(U40-I15-Pad16)">
+      <node ref="U40" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="689" name="unconnected-(U40-~{E}-Pad15)">
+      <node ref="U40" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="690" name="unconnected-(U41-I0-Pad9)">
+      <node ref="U41" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="691" name="unconnected-(U41-I1-Pad8)">
+      <node ref="U41" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="692" name="unconnected-(U41-I2-Pad7)">
+      <node ref="U41" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="693" name="unconnected-(U41-I3-Pad6)">
+      <node ref="U41" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="694" name="unconnected-(U41-I4-Pad5)">
+      <node ref="U41" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="695" name="unconnected-(U41-I5-Pad4)">
+      <node ref="U41" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="696" name="unconnected-(U41-I6-Pad3)">
+      <node ref="U41" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="697" name="unconnected-(U41-I7-Pad2)">
+      <node ref="U41" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="698" name="unconnected-(U41-I8-Pad23)">
+      <node ref="U41" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="699" name="unconnected-(U41-I9-Pad22)">
+      <node ref="U41" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="700" name="unconnected-(U41-I10-Pad21)">
+      <node ref="U41" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="701" name="unconnected-(U41-I11-Pad20)">
+      <node ref="U41" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="702" name="unconnected-(U41-I12-Pad19)">
+      <node ref="U41" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="703" name="unconnected-(U41-I13-Pad18)">
+      <node ref="U41" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="704" name="unconnected-(U41-I14-Pad17)">
+      <node ref="U41" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="705" name="unconnected-(U41-I15-Pad16)">
+      <node ref="U41" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="706" name="unconnected-(U41-~{E}-Pad15)">
+      <node ref="U41" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="707" name="unconnected-(U42-I0-Pad9)">
+      <node ref="U42" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="708" name="unconnected-(U42-I1-Pad8)">
+      <node ref="U42" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="709" name="unconnected-(U42-I2-Pad7)">
+      <node ref="U42" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="710" name="unconnected-(U42-I3-Pad6)">
+      <node ref="U42" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="711" name="unconnected-(U42-I4-Pad5)">
+      <node ref="U42" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="712" name="unconnected-(U42-I5-Pad4)">
+      <node ref="U42" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="713" name="unconnected-(U42-I6-Pad3)">
+      <node ref="U42" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="714" name="unconnected-(U42-I7-Pad2)">
+      <node ref="U42" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="715" name="unconnected-(U42-I8-Pad23)">
+      <node ref="U42" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="716" name="unconnected-(U42-I9-Pad22)">
+      <node ref="U42" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="717" name="unconnected-(U42-I10-Pad21)">
+      <node ref="U42" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="718" name="unconnected-(U42-I11-Pad20)">
+      <node ref="U42" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="719" name="unconnected-(U42-I12-Pad19)">
+      <node ref="U42" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="720" name="unconnected-(U42-I13-Pad18)">
+      <node ref="U42" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="721" name="unconnected-(U42-I14-Pad17)">
+      <node ref="U42" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="722" name="unconnected-(U42-I15-Pad16)">
+      <node ref="U42" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="723" name="unconnected-(U42-~{E}-Pad15)">
+      <node ref="U42" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="724" name="unconnected-(U43-I0-Pad9)">
+      <node ref="U43" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="725" name="unconnected-(U43-I1-Pad8)">
+      <node ref="U43" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="726" name="unconnected-(U43-I2-Pad7)">
+      <node ref="U43" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="727" name="unconnected-(U43-I3-Pad6)">
+      <node ref="U43" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="728" name="unconnected-(U43-I4-Pad5)">
+      <node ref="U43" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="729" name="unconnected-(U43-I5-Pad4)">
+      <node ref="U43" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="730" name="unconnected-(U43-I6-Pad3)">
+      <node ref="U43" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="731" name="unconnected-(U43-I7-Pad2)">
+      <node ref="U43" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="732" name="unconnected-(U43-I8-Pad23)">
+      <node ref="U43" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="733" name="unconnected-(U43-I9-Pad22)">
+      <node ref="U43" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="734" name="unconnected-(U43-I10-Pad21)">
+      <node ref="U43" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="735" name="unconnected-(U43-I11-Pad20)">
+      <node ref="U43" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="736" name="unconnected-(U43-I12-Pad19)">
+      <node ref="U43" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="737" name="unconnected-(U43-I13-Pad18)">
+      <node ref="U43" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="738" name="unconnected-(U43-I14-Pad17)">
+      <node ref="U43" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="739" name="unconnected-(U43-I15-Pad16)">
+      <node ref="U43" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="740" name="unconnected-(U43-~{E}-Pad15)">
+      <node ref="U43" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="741" name="unconnected-(U44-I0-Pad9)">
+      <node ref="U44" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="742" name="unconnected-(U44-I1-Pad8)">
+      <node ref="U44" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="743" name="unconnected-(U44-I2-Pad7)">
+      <node ref="U44" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="744" name="unconnected-(U44-I3-Pad6)">
+      <node ref="U44" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="745" name="unconnected-(U44-I4-Pad5)">
+      <node ref="U44" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="746" name="unconnected-(U44-I5-Pad4)">
+      <node ref="U44" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="747" name="unconnected-(U44-I6-Pad3)">
+      <node ref="U44" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="748" name="unconnected-(U44-I7-Pad2)">
+      <node ref="U44" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="749" name="unconnected-(U44-I8-Pad23)">
+      <node ref="U44" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="750" name="unconnected-(U44-I9-Pad22)">
+      <node ref="U44" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="751" name="unconnected-(U44-I10-Pad21)">
+      <node ref="U44" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="752" name="unconnected-(U44-I11-Pad20)">
+      <node ref="U44" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="753" name="unconnected-(U44-I12-Pad19)">
+      <node ref="U44" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="754" name="unconnected-(U44-I13-Pad18)">
+      <node ref="U44" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="755" name="unconnected-(U44-I14-Pad17)">
+      <node ref="U44" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="756" name="unconnected-(U44-I15-Pad16)">
+      <node ref="U44" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="757" name="unconnected-(U44-~{E}-Pad15)">
+      <node ref="U44" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="758" name="unconnected-(U45-I0-Pad9)">
+      <node ref="U45" pin="9" pinfunction="I0" pintype="passive"/>
+    </net>
+    <net code="759" name="unconnected-(U45-I1-Pad8)">
+      <node ref="U45" pin="8" pinfunction="I1" pintype="passive"/>
+    </net>
+    <net code="760" name="unconnected-(U45-I2-Pad7)">
+      <node ref="U45" pin="7" pinfunction="I2" pintype="passive"/>
+    </net>
+    <net code="761" name="unconnected-(U45-I3-Pad6)">
+      <node ref="U45" pin="6" pinfunction="I3" pintype="passive"/>
+    </net>
+    <net code="762" name="unconnected-(U45-I4-Pad5)">
+      <node ref="U45" pin="5" pinfunction="I4" pintype="passive"/>
+    </net>
+    <net code="763" name="unconnected-(U45-I5-Pad4)">
+      <node ref="U45" pin="4" pinfunction="I5" pintype="passive"/>
+    </net>
+    <net code="764" name="unconnected-(U45-I6-Pad3)">
+      <node ref="U45" pin="3" pinfunction="I6" pintype="passive"/>
+    </net>
+    <net code="765" name="unconnected-(U45-I7-Pad2)">
+      <node ref="U45" pin="2" pinfunction="I7" pintype="passive"/>
+    </net>
+    <net code="766" name="unconnected-(U45-I8-Pad23)">
+      <node ref="U45" pin="23" pinfunction="I8" pintype="passive"/>
+    </net>
+    <net code="767" name="unconnected-(U45-I9-Pad22)">
+      <node ref="U45" pin="22" pinfunction="I9" pintype="passive"/>
+    </net>
+    <net code="768" name="unconnected-(U45-I10-Pad21)">
+      <node ref="U45" pin="21" pinfunction="I10" pintype="passive"/>
+    </net>
+    <net code="769" name="unconnected-(U45-I11-Pad20)">
+      <node ref="U45" pin="20" pinfunction="I11" pintype="passive"/>
+    </net>
+    <net code="770" name="unconnected-(U45-I12-Pad19)">
+      <node ref="U45" pin="19" pinfunction="I12" pintype="passive"/>
+    </net>
+    <net code="771" name="unconnected-(U45-I13-Pad18)">
+      <node ref="U45" pin="18" pinfunction="I13" pintype="passive"/>
+    </net>
+    <net code="772" name="unconnected-(U45-I14-Pad17)">
+      <node ref="U45" pin="17" pinfunction="I14" pintype="passive"/>
+    </net>
+    <net code="773" name="unconnected-(U45-I15-Pad16)">
+      <node ref="U45" pin="16" pinfunction="I15" pintype="passive"/>
+    </net>
+    <net code="774" name="unconnected-(U45-~{E}-Pad15)">
+      <node ref="U45" pin="15" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="775" name="unconnected-(U46-CE-Pad8)">
+      <node ref="U46" pin="8" pinfunction="CE" pintype="input"/>
+    </net>
+    <net code="776" name="unconnected-(U46-EP-Pad9)">
+      <node ref="U46" pin="9" pinfunction="EP" pintype="passive"/>
+    </net>
+    <net code="777" name="unconnected-(U46-PROG-Pad2)">
+      <node ref="U46" pin="2" pinfunction="PROG" pintype="bidirectional"/>
+    </net>
+    <net code="778" name="unconnected-(U46-TEMP-Pad1)">
+      <node ref="U46" pin="1" pinfunction="TEMP" pintype="input"/>
+    </net>
+    <net code="779" name="unconnected-(U46-~{CHRG}-Pad7)">
+      <node ref="U46" pin="7" pinfunction="~{CHRG}" pintype="output"/>
+    </net>
+    <net code="780" name="unconnected-(U46-~{STDBY}-Pad6)">
+      <node ref="U46" pin="6" pinfunction="~{STDBY}" pintype="output"/>
+    </net>
+  </nets>
+</export>
