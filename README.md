@@ -10,6 +10,15 @@ For Firmware Design Refer to:
 /MPU6050
 
 For 3D Design Refer to:
+/Automatic Continuity Tester
+/Fan Tester
+/MPU6050
+
+For Software Design Refer to:
+/DFM Report Generator
+/SCPI Project 
+
+Thanks Look Forward for our next ventures
 
 
 <!---
