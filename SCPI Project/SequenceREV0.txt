@@ -1,0 +1,59 @@
+
+		write("SYST:POWER:AUTO");
+		Console.WriteLine("POWER AUTO");
+		
+		write("INST:SEL "NA";*OPC?);
+		Console.WriteLine("Network Analysis Mode");
+		write("CALC:PAR2:DEF S21");
+		Console.WriteLine("S21 Mode");
+		write("CALC:PAR:COUN 1");
+		Console.WriteLine("Trace Set");
+		write("BWID 30");
+		Console.WriteLine("Bandwidth 30Hz");
+		write("SWE:POIN 871");
+		Console.WriteLine("871 Resolution Set");
+		write("SWE:POIN 101");
+		Console.WriteLine("101 Resolution Set");
+		write("FREQ:STAR 600E6");
+		Console.WriteLine("Start Frequency 600MHz");
+		write("FREQ:STOP 18E9")
+		Console.WriteLine("Stop Frequency 18GHz");
+		write("DISP:WIND:TRAC2:Y:PDIV 20");
+		Console.WriteLine("dB/Division 20dB");
+		write("DISP:WIND:TRAC1:Y:RPOS -60");
+		Console.WriteLine("Scale reference -60dB");
+		write("DISP:MARK:LARG:STAT A");
+		write("DISP:MARK:LARG:A:DEF:TRAC1:MEAS S21");
+		write("DISP:MARK:LARG:A:DEF:LINE1:TRACking 1");
+		Console.WriteLine("Big readout Set");
+		write("SOUR: POW 0");
+		Console.WriteLine("Output Power Set to 0dB");
+		
+		write("CALC:LIM:LLD 1,1,0,0,4,600E6,-70,7.125E9,-80,18E9,-80");
+		Console.WriteLine("Limit Set ");   		
+		
+
+		while(Console.WriteLine("Are both the TX and RX Power Amplifier Turned ON ?(Y/N)"))
+{		while ( Console.Readkey().Key!=ConsoleKey.Y){
+		write("SWE:POIN 101");
+		write("SENS:CORR:COLL:METH:THRU 1,2");
+		write("-p Attach thru now");
+		write("SENS:CORR:COLL:THRU 1,2;*OPC?");
+		write("SENS:CORR:COLL:SAVE 0");
+		Console.WriteLine("101 Calibration done");
+
+		write("SWE:POIN 871");
+		write("SENS:CORR:COLL:METH:THRU 1,2");
+		write("-p Attach thru now");
+		write("SENS:CORR:COLL:THRU 1,2;*OPC?");
+		write("SENS:CORR:COLL:SAVE 0");
+		Console.WriteLine("101 Calibration done");
+		break;
+}
+
+		while(Console.Readkey().Key!=ConsoleKey.N){
+		Console.WriteLine("Please Turn On TX and RX Power Amplifier before calibration");
+ 		break;
+}
+
+}

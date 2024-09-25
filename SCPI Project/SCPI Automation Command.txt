@@ -1,0 +1,110 @@
+
+/////////////////////////////////////////////////////MEASUREMENT///////////////////////////////////////
+#Select mode
+INST:SEL "NA";*OPC?
+
+#S21
+CALC:PAR2:DEF S21
+
+#Number of traces
+CALC:PAR:COUN 1
+
+#IFBW 30Hz
+BWID 30
+
+#Set Resolution
+SWE:POIN 101
+SWE:POIN 871
+
+#Start Frequency
+FREQ:STAR 600E6
+
+#Stop Frequency
+FREQ:STOP 18E9
+
+#dB Division	
+DISP:WIND:TRAC2:Y:PDIV 20
+
+#Scale Reference -60dB
+DISP:WIND:TRAC1:Y:RPOS -60
+
+#Set Big Readout
+
+#Set Output Power 0dBm 
+SOUR: POW 0
+
+///////////////////////////////////////////////LIMIT///////////////////////////////////////////////////
+
+#Limit Lines
+CALC:LIM:LLD 1,1,0,0,4,600e6,-70,7.125e9,-70,7.125e9,-80,18e9,-80
+
+///////////////////////////////////////////////CALIBRATION///////////////////////////////////////////////////
+
+SWE:POIN 101
+SENS:CORR:COLL:METH:THRU 1,2
+-p Attach thru now
+SENS:CORR:COLL:THRU 1,2;*OPC?
+SENS:CORR:COLL:SAVE 0
+
+SWE:POIN 871
+SENS:CORR:COL:METH:THRU 1,2
+-P Attach thru now
+SENS:CORR:COLL:THRU 1,2;*OPC ?
+SENS:CORR:COLL:SAVE 0
+
+#
+////////////////////////////////////////////////Save FILE//////////////////////////////////////////
+#Save CSV Trace File
+MMEM:STOR:FDAT "UNIT.TEST.POINT.RESOLUTION.DATE.csv"
+
+#Save PNG Trace File
+MMEMory:STO:IMAG "UNIT.TEST.POINT.RESOLUTION.DATE.png"
+
+///////////////////////////////////////////////Additional Commands/////////////////////////////////////
+
+#Turn FieldFox ON when power applied( Might Require Timer Socket)
+SYST:PWR:AUTO
+
+#Sets delay before turning the FieldFox OFF
+SYST:PWR:SHUT
+
+#Wait
+*WAI
+
+//////////////////////Useful C# Commmand/////////////////////////////////////////
+Using System;
+Using System.Threading;
+
+#Delay 101( 51 Seconds for 3 Loop)
+Thread.Sleep(51000);
+
+#Delay 871( 414 Seconds for 3 Loop) 
+Thread.Sleep(414000);
+
+#function example 
+public void name()
+{
+	Console.Write("\n\==========")note
+}
+
+/////////////// Set 3 sweep Trigger////////////////////
+INIT:CONT 0;*OPC?
+
+INIT:IMM;*OPC?
+INIT:IMM;*OPC?
+INIT:IMM;*OPC?
+
+/////////Console Readkey////////////////////////
+Console.WriteLine("Press "C"-Calibrate, "M"-Measurement, "L" Limit");
+While(Console.ReadKey().Key!=ConsoleKey.C){
+Console.WriteLine("Calibration Is Complete");
+}
+While(Console.ReadKey().Key!=ConsoleKey.M){
+
+Console.WriteLine("Measurement Setting Is Complete");
+}
+While(Console.ReadKey().Key!=ConsoleKey.L){
+
+Console.WriteLine("Limit Is Complete");
+}
+-p
